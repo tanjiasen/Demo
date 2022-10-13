@@ -1,0 +1,1100 @@
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10004, pstmt-20012, rs-50042} open
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10004, pstmt-20012, rs-50042} Header: [count(0)]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10004, pstmt-20012, rs-50042} Result: [2]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10004, pstmt-20012, rs-50042} closed
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10004, pstmt-20012} clearParameters. 
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10004, stmt-20012} clearBatch. 
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10004, pstmt-20013} Parameters : [gg, gg, 10]
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10004, pstmt-20013} Types : [VARCHAR, VARCHAR, INTEGER]
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10004, pstmt-20013} executed. 143.6591 millis. select * from `customer_info`
+        WHERE 1=1
+         
+            AND (`name` like CONCAT('%',?,'%') or `customer_manager` like CONCAT('%',?,'%'))
+ LIMIT ? 
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10004, pstmt-20013, rs-50043} open
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10004, pstmt-20013, rs-50043} Header: [customerId, photo, name, sex, birthdate, telephone, email, education, id_number, unit, customer_manager, remarks]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10004, pstmt-20013, rs-50043} Result: [33, , ggggg, 女, 1970-01-01, 3333, 2345, 高中, null, null, 1, null]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10004, pstmt-20013, rs-50043} Result: [35, null, ggggg, null, null, 3333, 2345, null, null, null, null, null]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10004, pstmt-20013, rs-50043} closed
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10004, pstmt-20013} clearParameters. 
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10004, stmt-20013} clearBatch. 
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10004} pool-recycle
+DEBUG http-nio-8080-exec-9 druid.sql.Connection - {conn-10004} pool-connect
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10004, pstmt-20017} created. SELECT count(0) FROM `customer_info` WHERE 1 = 1
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10004, pstmt-20017} Parameters : []
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10004, pstmt-20017} Types : []
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10004, pstmt-20017} executed. 55.7882 millis. SELECT count(0) FROM `customer_info` WHERE 1 = 1
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10004, pstmt-20017, rs-50044} open
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10004, pstmt-20017, rs-50044} Header: [count(0)]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10004, pstmt-20017, rs-50044} Result: [13]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10004, pstmt-20017, rs-50044} closed
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10004, pstmt-20017} clearParameters. 
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10004, stmt-20017} clearBatch. 
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10004, pstmt-20018} created. select * from `customer_info`
+        WHERE 1=1
+ LIMIT ? 
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10004, pstmt-20018} Parameters : [10]
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10004, pstmt-20018} Types : [INTEGER]
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10004, pstmt-20018} executed. 57.1531 millis. select * from `customer_info`
+        WHERE 1=1
+ LIMIT ? 
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50045} open
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50045} Header: [customerId, photo, name, sex, birthdate, telephone, email, education, id_number, unit, customer_manager, remarks]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50045} Result: [1, , wwww, 男, 2022-09-24, 45, 544, 本科, 453, 453, 4, 无]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50045} Result: [2, http://localhost:8080/upload_file/2022-09-29/037ae8ec645b40389687db2637567c0d.jpg, 佳人, 女, 2020-05-04, 12, 24680, 本科, 1223, 淘宝, 3, wu ]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50045} Result: [3, null, 哈哈哈hhh, 中, 2020-03-04, 123456, 23333, 大专, null, null, 2, null]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50045} Result: [4, null, 嘎嘎嘎, 男, 2020-01-01, 246, 123, 中专, null, null, 2, null]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50045} Result: [28, http://localhost:8080/upload_file/2022-09-29/761e8dd62db74ea981a8aeee8f47a206.png, tst, 男, 2022-09-27, 12345, t, 本科, 12345, t, 2, t]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50045} Result: [29, http://localhost:8080/upload_file/2022-09-29/0b4e43e61e234bf4bf1f26c30b3f6af1.jpg, 喜羊羊, 男, 2022-09-13, 12345678, 12345678@qq.com, 研究生, 1234, null, 1, null]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50045} Result: [30, http://localhost:8080/upload_file/2022-09-29/8a6ccbf68d304b6d8453c9f47a634c0c.png, test, 男, 2022-10-03, 12344, t, 本科, 123456, t, 1, t]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50045} Result: [31, http://localhost:8080/upload_file/2022-09-29/44168490edd049138205d5f1f0b92570.png, t, 男, 2022-09-26, 12333, 159024, 高中, 4, t, 2, t]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50045} Result: [32, http://localhost:8080/upload_file/2022-09-29/8a7a4957b33449a0be53e2ec37412022.png, demo, 女, 2022-09-28, 13813812138, 2587412569@qq.com, 小学, 234, test, 1, etst]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50045} Result: [33, , ggggg, 女, 1970-01-01, 3333, 2345, 高中, null, null, 1, null]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50045} closed
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10004, pstmt-20018} clearParameters. 
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10004, stmt-20018} clearBatch. 
+DEBUG http-nio-8080-exec-9 druid.sql.Connection - {conn-10004} pool-recycle
+DEBUG http-nio-8080-exec-5 druid.sql.Connection - {conn-10004} pool-connect
+DEBUG http-nio-8080-exec-5 druid.sql.Statement - {conn-10004, pstmt-20019} created. delete from `customer_info` where `customerId` = ?
+DEBUG http-nio-8080-exec-5 druid.sql.Statement - {conn-10004, pstmt-20019} Parameters : [33]
+DEBUG http-nio-8080-exec-5 druid.sql.Statement - {conn-10004, pstmt-20019} Types : [INTEGER]
+DEBUG http-nio-8080-exec-5 druid.sql.Statement - {conn-10004, pstmt-20019} executed. 114.5759 millis. delete from `customer_info` where `customerId` = ?
+DEBUG http-nio-8080-exec-5 druid.sql.Statement - {conn-10004, pstmt-20019} clearParameters. 
+DEBUG http-nio-8080-exec-5 druid.sql.Statement - {conn-10004, stmt-20019} clearBatch. 
+DEBUG http-nio-8080-exec-5 druid.sql.Connection - {conn-10004} pool-recycle
+DEBUG http-nio-8080-exec-2 druid.sql.Connection - {conn-10004} pool-connect
+DEBUG http-nio-8080-exec-2 druid.sql.Statement - {conn-10004, pstmt-20017} Parameters : []
+DEBUG http-nio-8080-exec-2 druid.sql.Statement - {conn-10004, pstmt-20017} Types : []
+DEBUG http-nio-8080-exec-2 druid.sql.Statement - {conn-10004, pstmt-20017} executed. 61.6349 millis. SELECT count(0) FROM `customer_info` WHERE 1 = 1
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10004, pstmt-20017, rs-50046} open
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10004, pstmt-20017, rs-50046} Header: [count(0)]
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10004, pstmt-20017, rs-50046} Result: [12]
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10004, pstmt-20017, rs-50046} closed
+DEBUG http-nio-8080-exec-2 druid.sql.Statement - {conn-10004, pstmt-20017} clearParameters. 
+DEBUG http-nio-8080-exec-2 druid.sql.Statement - {conn-10004, stmt-20017} clearBatch. 
+DEBUG http-nio-8080-exec-2 druid.sql.Statement - {conn-10004, pstmt-20018} Parameters : [10]
+DEBUG http-nio-8080-exec-2 druid.sql.Statement - {conn-10004, pstmt-20018} Types : [INTEGER]
+DEBUG http-nio-8080-exec-2 druid.sql.Statement - {conn-10004, pstmt-20018} executed. 64.6388 millis. select * from `customer_info`
+        WHERE 1=1
+ LIMIT ? 
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50047} open
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50047} Header: [customerId, photo, name, sex, birthdate, telephone, email, education, id_number, unit, customer_manager, remarks]
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50047} Result: [1, , wwww, 男, 2022-09-24, 45, 544, 本科, 453, 453, 4, 无]
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50047} Result: [2, http://localhost:8080/upload_file/2022-09-29/037ae8ec645b40389687db2637567c0d.jpg, 佳人, 女, 2020-05-04, 12, 24680, 本科, 1223, 淘宝, 3, wu ]
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50047} Result: [3, null, 哈哈哈hhh, 中, 2020-03-04, 123456, 23333, 大专, null, null, 2, null]
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50047} Result: [4, null, 嘎嘎嘎, 男, 2020-01-01, 246, 123, 中专, null, null, 2, null]
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50047} Result: [28, http://localhost:8080/upload_file/2022-09-29/761e8dd62db74ea981a8aeee8f47a206.png, tst, 男, 2022-09-27, 12345, t, 本科, 12345, t, 2, t]
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50047} Result: [29, http://localhost:8080/upload_file/2022-09-29/0b4e43e61e234bf4bf1f26c30b3f6af1.jpg, 喜羊羊, 男, 2022-09-13, 12345678, 12345678@qq.com, 研究生, 1234, null, 1, null]
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50047} Result: [30, http://localhost:8080/upload_file/2022-09-29/8a6ccbf68d304b6d8453c9f47a634c0c.png, test, 男, 2022-10-03, 12344, t, 本科, 123456, t, 1, t]
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50047} Result: [31, http://localhost:8080/upload_file/2022-09-29/44168490edd049138205d5f1f0b92570.png, t, 男, 2022-09-26, 12333, 159024, 高中, 4, t, 2, t]
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50047} Result: [32, http://localhost:8080/upload_file/2022-09-29/8a7a4957b33449a0be53e2ec37412022.png, demo, 女, 2022-09-28, 13813812138, 2587412569@qq.com, 小学, 234, test, 1, etst]
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50047} Result: [34, null, qqq, 男, null, 111, 222, 初中, null, null, 3, null]
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50047} closed
+DEBUG http-nio-8080-exec-2 druid.sql.Statement - {conn-10004, pstmt-20018} clearParameters. 
+DEBUG http-nio-8080-exec-2 druid.sql.Statement - {conn-10004, stmt-20018} clearBatch. 
+DEBUG http-nio-8080-exec-2 druid.sql.Connection - {conn-10004} pool-recycle
+DEBUG http-nio-8080-exec-10 druid.sql.Connection - {conn-10004} pool-connect
+DEBUG http-nio-8080-exec-10 druid.sql.Statement - {conn-10004, pstmt-20019} Parameters : [34]
+DEBUG http-nio-8080-exec-10 druid.sql.Statement - {conn-10004, pstmt-20019} Types : [INTEGER]
+DEBUG http-nio-8080-exec-10 druid.sql.Statement - {conn-10004, pstmt-20019} executed. 109.5907 millis. delete from `customer_info` where `customerId` = ?
+DEBUG http-nio-8080-exec-10 druid.sql.Statement - {conn-10004, pstmt-20019} clearParameters. 
+DEBUG http-nio-8080-exec-10 druid.sql.Statement - {conn-10004, stmt-20019} clearBatch. 
+DEBUG http-nio-8080-exec-10 druid.sql.Connection - {conn-10004} pool-recycle
+DEBUG http-nio-8080-exec-3 druid.sql.Connection - {conn-10004} pool-connect
+DEBUG http-nio-8080-exec-3 druid.sql.Statement - {conn-10004, pstmt-20017} Parameters : []
+DEBUG http-nio-8080-exec-3 druid.sql.Statement - {conn-10004, pstmt-20017} Types : []
+DEBUG http-nio-8080-exec-3 druid.sql.Statement - {conn-10004, pstmt-20017} executed. 61.641 millis. SELECT count(0) FROM `customer_info` WHERE 1 = 1
+DEBUG http-nio-8080-exec-3 druid.sql.ResultSet - {conn-10004, pstmt-20017, rs-50048} open
+DEBUG http-nio-8080-exec-3 druid.sql.ResultSet - {conn-10004, pstmt-20017, rs-50048} Header: [count(0)]
+DEBUG http-nio-8080-exec-3 druid.sql.ResultSet - {conn-10004, pstmt-20017, rs-50048} Result: [11]
+DEBUG http-nio-8080-exec-3 druid.sql.ResultSet - {conn-10004, pstmt-20017, rs-50048} closed
+DEBUG http-nio-8080-exec-3 druid.sql.Statement - {conn-10004, pstmt-20017} clearParameters. 
+DEBUG http-nio-8080-exec-3 druid.sql.Statement - {conn-10004, stmt-20017} clearBatch. 
+DEBUG http-nio-8080-exec-3 druid.sql.Statement - {conn-10004, pstmt-20018} Parameters : [10]
+DEBUG http-nio-8080-exec-3 druid.sql.Statement - {conn-10004, pstmt-20018} Types : [INTEGER]
+DEBUG http-nio-8080-exec-3 druid.sql.Statement - {conn-10004, pstmt-20018} executed. 56.552 millis. select * from `customer_info`
+        WHERE 1=1
+ LIMIT ? 
+DEBUG http-nio-8080-exec-3 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50049} open
+DEBUG http-nio-8080-exec-3 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50049} Header: [customerId, photo, name, sex, birthdate, telephone, email, education, id_number, unit, customer_manager, remarks]
+DEBUG http-nio-8080-exec-3 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50049} Result: [1, , wwww, 男, 2022-09-24, 45, 544, 本科, 453, 453, 4, 无]
+DEBUG http-nio-8080-exec-3 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50049} Result: [2, http://localhost:8080/upload_file/2022-09-29/037ae8ec645b40389687db2637567c0d.jpg, 佳人, 女, 2020-05-04, 12, 24680, 本科, 1223, 淘宝, 3, wu ]
+DEBUG http-nio-8080-exec-3 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50049} Result: [3, null, 哈哈哈hhh, 中, 2020-03-04, 123456, 23333, 大专, null, null, 2, null]
+DEBUG http-nio-8080-exec-3 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50049} Result: [4, null, 嘎嘎嘎, 男, 2020-01-01, 246, 123, 中专, null, null, 2, null]
+DEBUG http-nio-8080-exec-3 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50049} Result: [28, http://localhost:8080/upload_file/2022-09-29/761e8dd62db74ea981a8aeee8f47a206.png, tst, 男, 2022-09-27, 12345, t, 本科, 12345, t, 2, t]
+DEBUG http-nio-8080-exec-3 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50049} Result: [29, http://localhost:8080/upload_file/2022-09-29/0b4e43e61e234bf4bf1f26c30b3f6af1.jpg, 喜羊羊, 男, 2022-09-13, 12345678, 12345678@qq.com, 研究生, 1234, null, 1, null]
+DEBUG http-nio-8080-exec-3 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50049} Result: [30, http://localhost:8080/upload_file/2022-09-29/8a6ccbf68d304b6d8453c9f47a634c0c.png, test, 男, 2022-10-03, 12344, t, 本科, 123456, t, 1, t]
+DEBUG http-nio-8080-exec-3 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50049} Result: [31, http://localhost:8080/upload_file/2022-09-29/44168490edd049138205d5f1f0b92570.png, t, 男, 2022-09-26, 12333, 159024, 高中, 4, t, 2, t]
+DEBUG http-nio-8080-exec-3 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50049} Result: [32, http://localhost:8080/upload_file/2022-09-29/8a7a4957b33449a0be53e2ec37412022.png, demo, 女, 2022-09-28, 13813812138, 2587412569@qq.com, 小学, 234, test, 1, etst]
+DEBUG http-nio-8080-exec-3 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50049} Result: [35, null, ggggg, null, null, 3333, 2345, null, null, null, null, null]
+DEBUG http-nio-8080-exec-3 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50049} closed
+DEBUG http-nio-8080-exec-3 druid.sql.Statement - {conn-10004, pstmt-20018} clearParameters. 
+DEBUG http-nio-8080-exec-3 druid.sql.Statement - {conn-10004, stmt-20018} clearBatch. 
+DEBUG http-nio-8080-exec-3 druid.sql.Connection - {conn-10004} pool-recycle
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10004} pool-connect
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10004, pstmt-20019} Parameters : [35]
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10004, pstmt-20019} Types : [INTEGER]
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10004, pstmt-20019} executed. 111.8072 millis. delete from `customer_info` where `customerId` = ?
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10004, pstmt-20019} clearParameters. 
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10004, stmt-20019} clearBatch. 
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10004} pool-recycle
+DEBUG http-nio-8080-exec-9 druid.sql.Connection - {conn-10004} pool-connect
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10004, pstmt-20017} Parameters : []
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10004, pstmt-20017} Types : []
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10004, pstmt-20017} executed. 57.0334 millis. SELECT count(0) FROM `customer_info` WHERE 1 = 1
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10004, pstmt-20017, rs-50050} open
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10004, pstmt-20017, rs-50050} Header: [count(0)]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10004, pstmt-20017, rs-50050} Result: [10]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10004, pstmt-20017, rs-50050} closed
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10004, pstmt-20017} clearParameters. 
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10004, stmt-20017} clearBatch. 
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10004, pstmt-20018} Parameters : [10]
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10004, pstmt-20018} Types : [INTEGER]
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10004, pstmt-20018} executed. 56.1627 millis. select * from `customer_info`
+        WHERE 1=1
+ LIMIT ? 
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50051} open
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50051} Header: [customerId, photo, name, sex, birthdate, telephone, email, education, id_number, unit, customer_manager, remarks]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50051} Result: [1, , wwww, 男, 2022-09-24, 45, 544, 本科, 453, 453, 4, 无]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50051} Result: [2, http://localhost:8080/upload_file/2022-09-29/037ae8ec645b40389687db2637567c0d.jpg, 佳人, 女, 2020-05-04, 12, 24680, 本科, 1223, 淘宝, 3, wu ]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50051} Result: [3, null, 哈哈哈hhh, 中, 2020-03-04, 123456, 23333, 大专, null, null, 2, null]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50051} Result: [4, null, 嘎嘎嘎, 男, 2020-01-01, 246, 123, 中专, null, null, 2, null]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50051} Result: [28, http://localhost:8080/upload_file/2022-09-29/761e8dd62db74ea981a8aeee8f47a206.png, tst, 男, 2022-09-27, 12345, t, 本科, 12345, t, 2, t]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50051} Result: [29, http://localhost:8080/upload_file/2022-09-29/0b4e43e61e234bf4bf1f26c30b3f6af1.jpg, 喜羊羊, 男, 2022-09-13, 12345678, 12345678@qq.com, 研究生, 1234, null, 1, null]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50051} Result: [30, http://localhost:8080/upload_file/2022-09-29/8a6ccbf68d304b6d8453c9f47a634c0c.png, test, 男, 2022-10-03, 12344, t, 本科, 123456, t, 1, t]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50051} Result: [31, http://localhost:8080/upload_file/2022-09-29/44168490edd049138205d5f1f0b92570.png, t, 男, 2022-09-26, 12333, 159024, 高中, 4, t, 2, t]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50051} Result: [32, http://localhost:8080/upload_file/2022-09-29/8a7a4957b33449a0be53e2ec37412022.png, demo, 女, 2022-09-28, 13813812138, 2587412569@qq.com, 小学, 234, test, 1, etst]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50051} Result: [37, , 吞吞, 男, 2020-06-09, null, null, 高中, 55555555555555555, null, null, 无]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10004, pstmt-20018, rs-50051} closed
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10004, pstmt-20018} clearParameters. 
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10004, stmt-20018} clearBatch. 
+DEBUG http-nio-8080-exec-9 druid.sql.Connection - {conn-10004} pool-recycle
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10004, stmt-20020} created
+ERROR http-nio-8080-exec-8 druid.sql.Statement - {conn-10004, stmt-20020} execute error. SELECT 1 FROM DUAL
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 8,946,041 milliseconds ago. The last packet sent successfully to the server was 8,946,096 milliseconds ago.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1200)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2866)
+	at com.alibaba.druid.filter.FilterAdapter.statement_executeQuery(FilterAdapter.java:2513)
+	at com.alibaba.druid.filter.FilterEventAdapter.statement_executeQuery(FilterEventAdapter.java:296)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2863)
+	at com.alibaba.druid.wall.WallFilter.statement_executeQuery(WallFilter.java:546)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2863)
+	at com.alibaba.druid.filter.FilterAdapter.statement_executeQuery(FilterAdapter.java:2513)
+	at com.alibaba.druid.filter.FilterEventAdapter.statement_executeQuery(FilterEventAdapter.java:296)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2863)
+	at com.alibaba.druid.proxy.jdbc.StatementProxyImpl.executeQuery(StatementProxyImpl.java:215)
+	at com.alibaba.druid.pool.vendor.MySqlValidConnectionChecker.isValidConnection(MySqlValidConnectionChecker.java:140)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal(DruidAbstractDataSource.java:1460)
+	at com.alibaba.druid.pool.DruidDataSource.getConnectionDirect(DruidDataSource.java:1460)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5058)
+	at com.alibaba.druid.filter.logging.LogFilter.dataSource_getConnection(LogFilter.java:909)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5054)
+	at com.alibaba.druid.filter.FilterAdapter.dataSource_getConnection(FilterAdapter.java:2759)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5054)
+	at com.alibaba.druid.filter.stat.StatFilter.dataSource_getConnection(StatFilter.java:704)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5054)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1383)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:79)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.util.ExecutorUtil.executeAutoCount(ExecutorUtil.java:169)
+	at com.github.pagehelper.PageInterceptor.count(PageInterceptor.java:178)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:121)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at com.sun.proxy.$Proxy73.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.GeneratedMethodAccessor75.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	at com.sun.proxy.$Proxy61.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:145)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at com.sun.proxy.$Proxy62.selectAll(Unknown Source)
+	at com.example.cusinfomanagesystem.Service.impl.CustomerInfoServiceImpl.selectAll(CustomerInfoServiceImpl.java:41)
+	at com.example.cusinfomanagesystem.Controller.CustomerInfoController.selectAll(CustomerInfoController.java:25)
+	at sun.reflect.GeneratedMethodAccessor74.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1070)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 8,946,041 milliseconds ago. The last packet sent successfully to the server was 8,946,096 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.send(NativeProtocol.java:628)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:683)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:1051)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryString(NativeProtocol.java:997)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:663)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1168)
+	... 104 more
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at sun.security.ssl.SSLSocketOutputRecord.deliver(SSLSocketOutputRecord.java:319)
+	at sun.security.ssl.SSLSocketImpl$AppOutputStream.write(SSLSocketImpl.java:1193)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.mysql.cj.protocol.a.SimplePacketSender.send(SimplePacketSender.java:55)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketSender.send(TimeTrackingPacketSender.java:50)
+	at com.mysql.cj.protocol.a.NativeProtocol.send(NativeProtocol.java:619)
+	... 109 more
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10004, stmt-20020} closed
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10005, stmt-20021} created
+ERROR http-nio-8080-exec-8 druid.sql.Statement - {conn-10005, stmt-20021} execute error. SELECT 1 FROM DUAL
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 9,013,192 milliseconds ago. The last packet sent successfully to the server was 9,013,256 milliseconds ago.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1200)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2866)
+	at com.alibaba.druid.filter.FilterAdapter.statement_executeQuery(FilterAdapter.java:2513)
+	at com.alibaba.druid.filter.FilterEventAdapter.statement_executeQuery(FilterEventAdapter.java:296)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2863)
+	at com.alibaba.druid.wall.WallFilter.statement_executeQuery(WallFilter.java:546)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2863)
+	at com.alibaba.druid.filter.FilterAdapter.statement_executeQuery(FilterAdapter.java:2513)
+	at com.alibaba.druid.filter.FilterEventAdapter.statement_executeQuery(FilterEventAdapter.java:296)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2863)
+	at com.alibaba.druid.proxy.jdbc.StatementProxyImpl.executeQuery(StatementProxyImpl.java:215)
+	at com.alibaba.druid.pool.vendor.MySqlValidConnectionChecker.isValidConnection(MySqlValidConnectionChecker.java:140)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal(DruidAbstractDataSource.java:1460)
+	at com.alibaba.druid.pool.DruidDataSource.getConnectionDirect(DruidDataSource.java:1460)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5058)
+	at com.alibaba.druid.filter.logging.LogFilter.dataSource_getConnection(LogFilter.java:909)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5054)
+	at com.alibaba.druid.filter.FilterAdapter.dataSource_getConnection(FilterAdapter.java:2759)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5054)
+	at com.alibaba.druid.filter.stat.StatFilter.dataSource_getConnection(StatFilter.java:704)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5054)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1383)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:79)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.util.ExecutorUtil.executeAutoCount(ExecutorUtil.java:169)
+	at com.github.pagehelper.PageInterceptor.count(PageInterceptor.java:178)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:121)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at com.sun.proxy.$Proxy73.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.GeneratedMethodAccessor75.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	at com.sun.proxy.$Proxy61.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:145)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at com.sun.proxy.$Proxy62.selectAll(Unknown Source)
+	at com.example.cusinfomanagesystem.Service.impl.CustomerInfoServiceImpl.selectAll(CustomerInfoServiceImpl.java:41)
+	at com.example.cusinfomanagesystem.Controller.CustomerInfoController.selectAll(CustomerInfoController.java:25)
+	at sun.reflect.GeneratedMethodAccessor74.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1070)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 9,013,192 milliseconds ago. The last packet sent successfully to the server was 9,013,256 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.send(NativeProtocol.java:628)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:683)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:1051)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryString(NativeProtocol.java:997)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:663)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1168)
+	... 104 more
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at sun.security.ssl.SSLSocketOutputRecord.deliver(SSLSocketOutputRecord.java:319)
+	at sun.security.ssl.SSLSocketImpl$AppOutputStream.write(SSLSocketImpl.java:1193)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.mysql.cj.protocol.a.SimplePacketSender.send(SimplePacketSender.java:55)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketSender.send(TimeTrackingPacketSender.java:50)
+	at com.mysql.cj.protocol.a.NativeProtocol.send(NativeProtocol.java:619)
+	... 109 more
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10005, stmt-20021} closed
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10003, stmt-20022} created
+ERROR http-nio-8080-exec-8 druid.sql.Statement - {conn-10003, stmt-20022} execute error. SELECT 1 FROM DUAL
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 9,364,757 milliseconds ago. The last packet sent successfully to the server was 9,364,809 milliseconds ago.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1200)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2866)
+	at com.alibaba.druid.filter.FilterAdapter.statement_executeQuery(FilterAdapter.java:2513)
+	at com.alibaba.druid.filter.FilterEventAdapter.statement_executeQuery(FilterEventAdapter.java:296)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2863)
+	at com.alibaba.druid.wall.WallFilter.statement_executeQuery(WallFilter.java:546)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2863)
+	at com.alibaba.druid.filter.FilterAdapter.statement_executeQuery(FilterAdapter.java:2513)
+	at com.alibaba.druid.filter.FilterEventAdapter.statement_executeQuery(FilterEventAdapter.java:296)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2863)
+	at com.alibaba.druid.proxy.jdbc.StatementProxyImpl.executeQuery(StatementProxyImpl.java:215)
+	at com.alibaba.druid.pool.vendor.MySqlValidConnectionChecker.isValidConnection(MySqlValidConnectionChecker.java:140)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal(DruidAbstractDataSource.java:1460)
+	at com.alibaba.druid.pool.DruidDataSource.getConnectionDirect(DruidDataSource.java:1460)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5058)
+	at com.alibaba.druid.filter.logging.LogFilter.dataSource_getConnection(LogFilter.java:909)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5054)
+	at com.alibaba.druid.filter.FilterAdapter.dataSource_getConnection(FilterAdapter.java:2759)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5054)
+	at com.alibaba.druid.filter.stat.StatFilter.dataSource_getConnection(StatFilter.java:704)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5054)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1383)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:79)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.util.ExecutorUtil.executeAutoCount(ExecutorUtil.java:169)
+	at com.github.pagehelper.PageInterceptor.count(PageInterceptor.java:178)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:121)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at com.sun.proxy.$Proxy73.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.GeneratedMethodAccessor75.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	at com.sun.proxy.$Proxy61.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:145)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at com.sun.proxy.$Proxy62.selectAll(Unknown Source)
+	at com.example.cusinfomanagesystem.Service.impl.CustomerInfoServiceImpl.selectAll(CustomerInfoServiceImpl.java:41)
+	at com.example.cusinfomanagesystem.Controller.CustomerInfoController.selectAll(CustomerInfoController.java:25)
+	at sun.reflect.GeneratedMethodAccessor74.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1070)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 9,364,757 milliseconds ago. The last packet sent successfully to the server was 9,364,809 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.send(NativeProtocol.java:628)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:683)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:1051)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryString(NativeProtocol.java:997)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:663)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1168)
+	... 104 more
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at sun.security.ssl.SSLSocketOutputRecord.deliver(SSLSocketOutputRecord.java:319)
+	at sun.security.ssl.SSLSocketImpl$AppOutputStream.write(SSLSocketImpl.java:1193)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.mysql.cj.protocol.a.SimplePacketSender.send(SimplePacketSender.java:55)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketSender.send(TimeTrackingPacketSender.java:50)
+	at com.mysql.cj.protocol.a.NativeProtocol.send(NativeProtocol.java:619)
+	... 109 more
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10003, stmt-20022} closed
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10002, stmt-20023} created
+ERROR http-nio-8080-exec-8 druid.sql.Statement - {conn-10002, stmt-20023} execute error. SELECT 1 FROM DUAL
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 9,365,440 milliseconds ago. The last packet sent successfully to the server was 9,365,496 milliseconds ago.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1200)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2866)
+	at com.alibaba.druid.filter.FilterAdapter.statement_executeQuery(FilterAdapter.java:2513)
+	at com.alibaba.druid.filter.FilterEventAdapter.statement_executeQuery(FilterEventAdapter.java:296)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2863)
+	at com.alibaba.druid.wall.WallFilter.statement_executeQuery(WallFilter.java:546)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2863)
+	at com.alibaba.druid.filter.FilterAdapter.statement_executeQuery(FilterAdapter.java:2513)
+	at com.alibaba.druid.filter.FilterEventAdapter.statement_executeQuery(FilterEventAdapter.java:296)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2863)
+	at com.alibaba.druid.proxy.jdbc.StatementProxyImpl.executeQuery(StatementProxyImpl.java:215)
+	at com.alibaba.druid.pool.vendor.MySqlValidConnectionChecker.isValidConnection(MySqlValidConnectionChecker.java:140)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal(DruidAbstractDataSource.java:1460)
+	at com.alibaba.druid.pool.DruidDataSource.getConnectionDirect(DruidDataSource.java:1460)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5058)
+	at com.alibaba.druid.filter.logging.LogFilter.dataSource_getConnection(LogFilter.java:909)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5054)
+	at com.alibaba.druid.filter.FilterAdapter.dataSource_getConnection(FilterAdapter.java:2759)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5054)
+	at com.alibaba.druid.filter.stat.StatFilter.dataSource_getConnection(StatFilter.java:704)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5054)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1383)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:79)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.util.ExecutorUtil.executeAutoCount(ExecutorUtil.java:169)
+	at com.github.pagehelper.PageInterceptor.count(PageInterceptor.java:178)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:121)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at com.sun.proxy.$Proxy73.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.GeneratedMethodAccessor75.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	at com.sun.proxy.$Proxy61.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:145)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at com.sun.proxy.$Proxy62.selectAll(Unknown Source)
+	at com.example.cusinfomanagesystem.Service.impl.CustomerInfoServiceImpl.selectAll(CustomerInfoServiceImpl.java:41)
+	at com.example.cusinfomanagesystem.Controller.CustomerInfoController.selectAll(CustomerInfoController.java:25)
+	at sun.reflect.GeneratedMethodAccessor74.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1070)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 9,365,440 milliseconds ago. The last packet sent successfully to the server was 9,365,496 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.send(NativeProtocol.java:628)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:683)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:1051)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryString(NativeProtocol.java:997)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:663)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1168)
+	... 104 more
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at sun.security.ssl.SSLSocketOutputRecord.deliver(SSLSocketOutputRecord.java:319)
+	at sun.security.ssl.SSLSocketImpl$AppOutputStream.write(SSLSocketImpl.java:1193)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.mysql.cj.protocol.a.SimplePacketSender.send(SimplePacketSender.java:55)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketSender.send(TimeTrackingPacketSender.java:50)
+	at com.mysql.cj.protocol.a.NativeProtocol.send(NativeProtocol.java:619)
+	... 109 more
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10002, stmt-20023} closed
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10001, stmt-20024} created
+ERROR http-nio-8080-exec-8 druid.sql.Statement - {conn-10001, stmt-20024} execute error. SELECT 1 FROM DUAL
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 9,366,177 milliseconds ago. The last packet sent successfully to the server was 9,366,235 milliseconds ago.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1200)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2866)
+	at com.alibaba.druid.filter.FilterAdapter.statement_executeQuery(FilterAdapter.java:2513)
+	at com.alibaba.druid.filter.FilterEventAdapter.statement_executeQuery(FilterEventAdapter.java:296)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2863)
+	at com.alibaba.druid.wall.WallFilter.statement_executeQuery(WallFilter.java:546)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2863)
+	at com.alibaba.druid.filter.FilterAdapter.statement_executeQuery(FilterAdapter.java:2513)
+	at com.alibaba.druid.filter.FilterEventAdapter.statement_executeQuery(FilterEventAdapter.java:296)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2863)
+	at com.alibaba.druid.proxy.jdbc.StatementProxyImpl.executeQuery(StatementProxyImpl.java:215)
+	at com.alibaba.druid.pool.vendor.MySqlValidConnectionChecker.isValidConnection(MySqlValidConnectionChecker.java:140)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal(DruidAbstractDataSource.java:1460)
+	at com.alibaba.druid.pool.DruidDataSource.getConnectionDirect(DruidDataSource.java:1460)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5058)
+	at com.alibaba.druid.filter.logging.LogFilter.dataSource_getConnection(LogFilter.java:909)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5054)
+	at com.alibaba.druid.filter.FilterAdapter.dataSource_getConnection(FilterAdapter.java:2759)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5054)
+	at com.alibaba.druid.filter.stat.StatFilter.dataSource_getConnection(StatFilter.java:704)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5054)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1383)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:79)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.util.ExecutorUtil.executeAutoCount(ExecutorUtil.java:169)
+	at com.github.pagehelper.PageInterceptor.count(PageInterceptor.java:178)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:121)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at com.sun.proxy.$Proxy73.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.GeneratedMethodAccessor75.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	at com.sun.proxy.$Proxy61.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:145)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at com.sun.proxy.$Proxy62.selectAll(Unknown Source)
+	at com.example.cusinfomanagesystem.Service.impl.CustomerInfoServiceImpl.selectAll(CustomerInfoServiceImpl.java:41)
+	at com.example.cusinfomanagesystem.Controller.CustomerInfoController.selectAll(CustomerInfoController.java:25)
+	at sun.reflect.GeneratedMethodAccessor74.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1070)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 9,366,177 milliseconds ago. The last packet sent successfully to the server was 9,366,235 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.send(NativeProtocol.java:628)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:683)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:1051)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryString(NativeProtocol.java:997)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:663)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1168)
+	... 104 more
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at sun.security.ssl.SSLSocketOutputRecord.deliver(SSLSocketOutputRecord.java:319)
+	at sun.security.ssl.SSLSocketImpl$AppOutputStream.write(SSLSocketImpl.java:1193)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.mysql.cj.protocol.a.SimplePacketSender.send(SimplePacketSender.java:55)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketSender.send(TimeTrackingPacketSender.java:50)
+	at com.mysql.cj.protocol.a.NativeProtocol.send(NativeProtocol.java:619)
+	... 109 more
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10001, stmt-20024} closed
+DEBUG Druid-ConnectionPool-Create-859099413 druid.sql.Connection - {conn-10006,procId-2432} connected
+DEBUG Druid-ConnectionPool-Create-859099413 druid.sql.Statement - {conn-10006, stmt-20025} created
+DEBUG Druid-ConnectionPool-Create-859099413 druid.sql.Statement - {conn-10006, stmt-20025, rs-50052} query executed. 59.9806 millis. SELECT 1 FROM DUAL
+DEBUG Druid-ConnectionPool-Create-859099413 druid.sql.ResultSet - {conn-10006, stmt-20025, rs-50052} open
+DEBUG Druid-ConnectionPool-Create-859099413 druid.sql.ResultSet - {conn-10006, stmt-20025, rs-50052} Header: [1]
+DEBUG Druid-ConnectionPool-Create-859099413 druid.sql.ResultSet - {conn-10006, stmt-20025, rs-50052} closed
+DEBUG Druid-ConnectionPool-Create-859099413 druid.sql.Statement - {conn-10006, stmt-20025} closed
+DEBUG http-nio-8080-exec-8 druid.sql.Connection - {conn-10006} pool-connect
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10006, pstmt-20026} created. SELECT count(0) FROM `customer_info` WHERE 1 = 1 AND (`name` LIKE CONCAT('%', ?, '%') OR `customer_manager` LIKE CONCAT('%', ?, '%'))
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10006, pstmt-20026} Parameters : [3, 3]
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10006, pstmt-20026} Types : [VARCHAR, VARCHAR]
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10006, pstmt-20026} executed. 57.7937 millis. SELECT count(0) FROM `customer_info` WHERE 1 = 1 AND (`name` LIKE CONCAT('%', ?, '%') OR `customer_manager` LIKE CONCAT('%', ?, '%'))
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10006, pstmt-20026, rs-50053} open
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10006, pstmt-20026, rs-50053} Header: [count(0)]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10006, pstmt-20026, rs-50053} Result: [1]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10006, pstmt-20026, rs-50053} closed
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10006, pstmt-20026} clearParameters. 
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10006, stmt-20026} clearBatch. 
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10006, pstmt-20027} created. select * from `customer_info`
+        WHERE 1=1
+         
+            AND (`name` like CONCAT('%',?,'%') or `customer_manager` like CONCAT('%',?,'%'))
+ LIMIT ? 
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10006, pstmt-20027} Parameters : [3, 3, 10]
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10006, pstmt-20027} Types : [VARCHAR, VARCHAR, INTEGER]
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10006, pstmt-20027} executed. 58.1551 millis. select * from `customer_info`
+        WHERE 1=1
+         
+            AND (`name` like CONCAT('%',?,'%') or `customer_manager` like CONCAT('%',?,'%'))
+ LIMIT ? 
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10006, pstmt-20027, rs-50054} open
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10006, pstmt-20027, rs-50054} Header: [customerId, photo, name, sex, birthdate, telephone, email, education, id_number, unit, customer_manager, remarks]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10006, pstmt-20027, rs-50054} Result: [2, http://localhost:8080/upload_file/2022-09-29/037ae8ec645b40389687db2637567c0d.jpg, 佳人, 女, 2020-05-04, 12, 24680, 本科, 1223, 淘宝, 3, wu ]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10006, pstmt-20027, rs-50054} closed
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10006, pstmt-20027} clearParameters. 
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10006, stmt-20027} clearBatch. 
+DEBUG http-nio-8080-exec-8 druid.sql.Connection - {conn-10006} pool-recycle
+DEBUG http-nio-8080-exec-7 druid.sql.Connection - {conn-10006} pool-connect
+DEBUG http-nio-8080-exec-7 druid.sql.Statement - {conn-10006, pstmt-20028} created. SELECT count(0) FROM `customer_info` WHERE 1 = 1
+DEBUG http-nio-8080-exec-7 druid.sql.Statement - {conn-10006, pstmt-20028} Parameters : []
+DEBUG http-nio-8080-exec-7 druid.sql.Statement - {conn-10006, pstmt-20028} Types : []
+DEBUG http-nio-8080-exec-7 druid.sql.Statement - {conn-10006, pstmt-20028} executed. 58.9249 millis. SELECT count(0) FROM `customer_info` WHERE 1 = 1
+DEBUG http-nio-8080-exec-7 druid.sql.ResultSet - {conn-10006, pstmt-20028, rs-50055} open
+DEBUG http-nio-8080-exec-7 druid.sql.ResultSet - {conn-10006, pstmt-20028, rs-50055} Header: [count(0)]
+DEBUG http-nio-8080-exec-7 druid.sql.ResultSet - {conn-10006, pstmt-20028, rs-50055} Result: [10]
+DEBUG http-nio-8080-exec-7 druid.sql.ResultSet - {conn-10006, pstmt-20028, rs-50055} closed
+DEBUG http-nio-8080-exec-7 druid.sql.Statement - {conn-10006, pstmt-20028} clearParameters. 
+DEBUG http-nio-8080-exec-7 druid.sql.Statement - {conn-10006, stmt-20028} clearBatch. 
+DEBUG http-nio-8080-exec-7 druid.sql.Statement - {conn-10006, pstmt-20029} created. select * from `customer_info`
+        WHERE 1=1
+ LIMIT ? 
+DEBUG http-nio-8080-exec-7 druid.sql.Statement - {conn-10006, pstmt-20029} Parameters : [10]
+DEBUG http-nio-8080-exec-7 druid.sql.Statement - {conn-10006, pstmt-20029} Types : [INTEGER]
+DEBUG http-nio-8080-exec-7 druid.sql.Statement - {conn-10006, pstmt-20029} executed. 61.7056 millis. select * from `customer_info`
+        WHERE 1=1
+ LIMIT ? 
+DEBUG http-nio-8080-exec-7 druid.sql.ResultSet - {conn-10006, pstmt-20029, rs-50056} open
+DEBUG http-nio-8080-exec-7 druid.sql.ResultSet - {conn-10006, pstmt-20029, rs-50056} Header: [customerId, photo, name, sex, birthdate, telephone, email, education, id_number, unit, customer_manager, remarks]
+DEBUG http-nio-8080-exec-7 druid.sql.ResultSet - {conn-10006, pstmt-20029, rs-50056} Result: [1, , null, null, 2022-09-24, null, null, 本科, 453, 453, null, 无]
+DEBUG http-nio-8080-exec-7 druid.sql.ResultSet - {conn-10006, pstmt-20029, rs-50056} Result: [2, http://localhost:8080/upload_file/2022-09-29/037ae8ec645b40389687db2637567c0d.jpg, 佳人, 女, 2020-05-04, 12, 24680, 本科, 1223, 淘宝, 3, wu ]
+DEBUG http-nio-8080-exec-7 druid.sql.ResultSet - {conn-10006, pstmt-20029, rs-50056} Result: [3, null, 哈哈哈hhh, 中, 2020-03-04, 123456, 23333, 大专, null, null, 2, null]
+DEBUG http-nio-8080-exec-7 druid.sql.ResultSet - {conn-10006, pstmt-20029, rs-50056} Result: [4, null, 哇嘎嘎, 男, 2020-01-01, 12345, 4321, 中专, null, null, 2, null]
+DEBUG http-nio-8080-exec-7 druid.sql.ResultSet - {conn-10006, pstmt-20029, rs-50056} Result: [28, http://localhost:8080/upload_file/2022-09-29/761e8dd62db74ea981a8aeee8f47a206.png, tst, 男, 2022-09-27, 12345, t, 本科, 12345, t, 2, t]
+DEBUG http-nio-8080-exec-7 druid.sql.ResultSet - {conn-10006, pstmt-20029, rs-50056} Result: [29, http://localhost:8080/upload_file/2022-09-29/0b4e43e61e234bf4bf1f26c30b3f6af1.jpg, 喜羊羊, 男, 2022-09-13, 12345678, 12345678@qq.com, 研究生, 1234, null, 1, null]
+DEBUG http-nio-8080-exec-7 druid.sql.ResultSet - {conn-10006, pstmt-20029, rs-50056} Result: [30, http://localhost:8080/upload_file/2022-09-29/8a6ccbf68d304b6d8453c9f47a634c0c.png, test, 男, 2022-10-03, 12344, t, 本科, 123456, t, 1, t]
+DEBUG http-nio-8080-exec-7 druid.sql.ResultSet - {conn-10006, pstmt-20029, rs-50056} Result: [31, http://localhost:8080/upload_file/2022-09-29/44168490edd049138205d5f1f0b92570.png, t, 男, 2022-09-26, 12333, 159024, 高中, 4, t, 2, t]
+DEBUG http-nio-8080-exec-7 druid.sql.ResultSet - {conn-10006, pstmt-20029, rs-50056} Result: [32, http://localhost:8080/upload_file/2022-09-29/8a7a4957b33449a0be53e2ec37412022.png, demo, 女, 2022-09-28, 13813812138, 2587412569@qq.com, 小学, 234, test, 1, etst]
+DEBUG http-nio-8080-exec-7 druid.sql.ResultSet - {conn-10006, pstmt-20029, rs-50056} Result: [37, , 吞吞, 男, 2020-06-09, null, null, 高中, 53, null, null, 无]
+DEBUG http-nio-8080-exec-7 druid.sql.ResultSet - {conn-10006, pstmt-20029, rs-50056} closed
+DEBUG http-nio-8080-exec-7 druid.sql.Statement - {conn-10006, pstmt-20029} clearParameters. 
+DEBUG http-nio-8080-exec-7 druid.sql.Statement - {conn-10006, stmt-20029} clearBatch. 
+DEBUG http-nio-8080-exec-7 druid.sql.Connection - {conn-10006} pool-recycle
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10006, stmt-20030} created
+ERROR http-nio-8080-exec-1 druid.sql.Statement - {conn-10006, stmt-20030} execute error. SELECT 1 FROM DUAL
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 8,853,572 milliseconds ago. The last packet sent successfully to the server was 8,853,631 milliseconds ago.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1200)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2866)
+	at com.alibaba.druid.filter.FilterAdapter.statement_executeQuery(FilterAdapter.java:2513)
+	at com.alibaba.druid.filter.FilterEventAdapter.statement_executeQuery(FilterEventAdapter.java:296)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2863)
+	at com.alibaba.druid.wall.WallFilter.statement_executeQuery(WallFilter.java:546)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2863)
+	at com.alibaba.druid.filter.FilterAdapter.statement_executeQuery(FilterAdapter.java:2513)
+	at com.alibaba.druid.filter.FilterEventAdapter.statement_executeQuery(FilterEventAdapter.java:296)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2863)
+	at com.alibaba.druid.proxy.jdbc.StatementProxyImpl.executeQuery(StatementProxyImpl.java:215)
+	at com.alibaba.druid.pool.vendor.MySqlValidConnectionChecker.isValidConnection(MySqlValidConnectionChecker.java:140)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal(DruidAbstractDataSource.java:1460)
+	at com.alibaba.druid.pool.DruidDataSource.getConnectionDirect(DruidDataSource.java:1460)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5058)
+	at com.alibaba.druid.filter.logging.LogFilter.dataSource_getConnection(LogFilter.java:909)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5054)
+	at com.alibaba.druid.filter.FilterAdapter.dataSource_getConnection(FilterAdapter.java:2759)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5054)
+	at com.alibaba.druid.filter.stat.StatFilter.dataSource_getConnection(StatFilter.java:704)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5054)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1383)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:79)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.util.ExecutorUtil.executeAutoCount(ExecutorUtil.java:169)
+	at com.github.pagehelper.PageInterceptor.count(PageInterceptor.java:178)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:121)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at com.sun.proxy.$Proxy73.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.GeneratedMethodAccessor75.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	at com.sun.proxy.$Proxy61.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:145)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at com.sun.proxy.$Proxy62.selectAll(Unknown Source)
+	at com.example.cusinfomanagesystem.Service.impl.CustomerInfoServiceImpl.selectAll(CustomerInfoServiceImpl.java:41)
+	at com.example.cusinfomanagesystem.Controller.CustomerInfoController.selectAll(CustomerInfoController.java:25)
+	at sun.reflect.GeneratedMethodAccessor74.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1070)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 8,853,572 milliseconds ago. The last packet sent successfully to the server was 8,853,631 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.send(NativeProtocol.java:628)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:683)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:1051)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryString(NativeProtocol.java:997)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:663)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1168)
+	... 104 more
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at sun.security.ssl.SSLSocketOutputRecord.deliver(SSLSocketOutputRecord.java:319)
+	at sun.security.ssl.SSLSocketImpl$AppOutputStream.write(SSLSocketImpl.java:1193)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.mysql.cj.protocol.a.SimplePacketSender.send(SimplePacketSender.java:55)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketSender.send(TimeTrackingPacketSender.java:50)
+	at com.mysql.cj.protocol.a.NativeProtocol.send(NativeProtocol.java:619)
+	... 109 more

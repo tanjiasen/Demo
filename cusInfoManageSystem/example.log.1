@@ -1,0 +1,1254 @@
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10013, pstmt-20053, rs-50084} closed
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10013, pstmt-20053} clearParameters. 
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10013, stmt-20053} clearBatch. 
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10013, pstmt-20054} created. select * from `customer_info`
+        WHERE 1=1
+ LIMIT ? 
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10013, pstmt-20054} Parameters : [10]
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10013, pstmt-20054} Types : [INTEGER]
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10013, pstmt-20054} executed. 63.8948 millis. select * from `customer_info`
+        WHERE 1=1
+ LIMIT ? 
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10013, pstmt-20054, rs-50085} open
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10013, pstmt-20054, rs-50085} Header: [customerId, photo, name, sex, birthdate, telephone, email, education, id_number, unit, customer_manager, remarks]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10013, pstmt-20054, rs-50085} Result: [1, , 喜羊羊, 男, 2022-09-24, 123, 321@qq.com, 小学, 453, 453, 2, 无]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10013, pstmt-20054, rs-50085} Result: [2, http://localhost:8080/upload_file/2022-09-29/037ae8ec645b40389687db2637567c0d.jpg, 佳人, 女, 2020-05-04, 12, 24680, 本科, 1223, 淘宝, 3, wu ]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10013, pstmt-20054, rs-50085} Result: [3, null, 哈哈哈hhh, 中, 2020-03-04, 123456, 23333, 大专, null, null, 2, null]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10013, pstmt-20054, rs-50085} Result: [4, null, 哇嘎嘎, 男, 2020-01-01, 12345, 4321, 中专, null, null, 2, null]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10013, pstmt-20054, rs-50085} Result: [28, http://localhost:8080/upload_file/2022-09-29/761e8dd62db74ea981a8aeee8f47a206.png, aaa, 男, 2022-09-27, 3231, 213, 本科, 12345, t, 3, t]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10013, pstmt-20054, rs-50085} Result: [29, http://localhost:8080/upload_file/2022-09-29/0b4e43e61e234bf4bf1f26c30b3f6af1.jpg, 哒哒哒哒, 女, 2022-09-13, 21312, 321, 研究生, 1234, null, 1, null]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10013, pstmt-20054, rs-50085} Result: [30, http://localhost:8080/upload_file/2022-09-29/8a6ccbf68d304b6d8453c9f47a634c0c.png, 哈哈哈, 男, 2022-10-03, 4213, 145, 本科, 123456, t, 1, t]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10013, pstmt-20054, rs-50085} Result: [31, http://localhost:8080/upload_file/2022-09-29/44168490edd049138205d5f1f0b92570.png, bbb, 女, 2022-09-26, 132324, 456, 高中, 4, t, 2, t]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10013, pstmt-20054, rs-50085} Result: [32, http://localhost:8080/upload_file/2022-09-29/8a7a4957b33449a0be53e2ec37412022.png, demo, 女, 2022-09-28, 13813812138, 2587412569@qq.com, 小学, 234, test, 1, etst]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10013, pstmt-20054, rs-50085} Result: [37, , 吞吞, 男, 2020-06-09, 123, 123, 高中, 53, null, 3, 无]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10013, pstmt-20054, rs-50085} closed
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10013, pstmt-20054} clearParameters. 
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10013, stmt-20054} clearBatch. 
+DEBUG http-nio-8080-exec-8 druid.sql.Connection - {conn-10013} pool-recycle
+DEBUG Druid-ConnectionPool-Create-859099413 druid.sql.Connection - {conn-10014,procId-2658} connected
+DEBUG Druid-ConnectionPool-Create-859099413 druid.sql.Statement - {conn-10014, stmt-20055} created
+DEBUG Druid-ConnectionPool-Create-859099413 druid.sql.Statement - {conn-10014, stmt-20055, rs-50086} query executed. 62.3449 millis. SELECT 1 FROM DUAL
+DEBUG Druid-ConnectionPool-Create-859099413 druid.sql.ResultSet - {conn-10014, stmt-20055, rs-50086} open
+DEBUG Druid-ConnectionPool-Create-859099413 druid.sql.ResultSet - {conn-10014, stmt-20055, rs-50086} Header: [1]
+DEBUG Druid-ConnectionPool-Create-859099413 druid.sql.ResultSet - {conn-10014, stmt-20055, rs-50086} closed
+DEBUG Druid-ConnectionPool-Create-859099413 druid.sql.Statement - {conn-10014, stmt-20055} closed
+ERROR http-nio-8080-exec-1 druid.sql.Statement - {conn-10009, stmt-20047} execute error. SELECT 1 FROM DUAL
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 1,313,207 milliseconds ago. The last packet sent successfully to the server was 1,313,260 milliseconds ago.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1200)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2866)
+	at com.alibaba.druid.filter.FilterAdapter.statement_executeQuery(FilterAdapter.java:2513)
+	at com.alibaba.druid.filter.FilterEventAdapter.statement_executeQuery(FilterEventAdapter.java:296)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2863)
+	at com.alibaba.druid.wall.WallFilter.statement_executeQuery(WallFilter.java:546)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2863)
+	at com.alibaba.druid.filter.FilterAdapter.statement_executeQuery(FilterAdapter.java:2513)
+	at com.alibaba.druid.filter.FilterEventAdapter.statement_executeQuery(FilterEventAdapter.java:296)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2863)
+	at com.alibaba.druid.proxy.jdbc.StatementProxyImpl.executeQuery(StatementProxyImpl.java:215)
+	at com.alibaba.druid.pool.vendor.MySqlValidConnectionChecker.isValidConnection(MySqlValidConnectionChecker.java:140)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal(DruidAbstractDataSource.java:1460)
+	at com.alibaba.druid.pool.DruidDataSource.getConnectionDirect(DruidDataSource.java:1460)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5058)
+	at com.alibaba.druid.filter.logging.LogFilter.dataSource_getConnection(LogFilter.java:909)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5054)
+	at com.alibaba.druid.filter.FilterAdapter.dataSource_getConnection(FilterAdapter.java:2759)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5054)
+	at com.alibaba.druid.filter.stat.StatFilter.dataSource_getConnection(StatFilter.java:704)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5054)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1383)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:79)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at com.github.pagehelper.util.ExecutorUtil.executeAutoCount(ExecutorUtil.java:169)
+	at com.github.pagehelper.PageInterceptor.count(PageInterceptor.java:178)
+	at com.github.pagehelper.PageInterceptor.intercept(PageInterceptor.java:121)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:62)
+	at com.sun.proxy.$Proxy73.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:151)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:145)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at sun.reflect.GeneratedMethodAccessor75.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	at com.sun.proxy.$Proxy61.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:145)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at com.sun.proxy.$Proxy62.selectAll(Unknown Source)
+	at com.example.cusinfomanagesystem.Service.impl.CustomerInfoServiceImpl.selectAll(CustomerInfoServiceImpl.java:41)
+	at com.example.cusinfomanagesystem.Controller.CustomerInfoController.selectAll(CustomerInfoController.java:25)
+	at sun.reflect.GeneratedMethodAccessor74.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1070)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 1,313,207 milliseconds ago. The last packet sent successfully to the server was 1,313,260 milliseconds ago.
+	at sun.reflect.GeneratedConstructorAccessor41.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:581)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:761)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:700)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:1051)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryString(NativeProtocol.java:997)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:663)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1168)
+	... 104 more
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:464)
+	at sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:68)
+	at sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1346)
+	at sun.security.ssl.SSLSocketImpl.access$300(SSLSocketImpl.java:73)
+	at sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:962)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeaderLocal(SimplePacketReader.java:81)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:575)
+	... 110 more
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10009, stmt-20047} closed
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10014} pool-connect
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10014, pstmt-20056} created. SELECT count(0) FROM `customer_info` WHERE 1 = 1
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10014, pstmt-20056} Parameters : []
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10014, pstmt-20056} Types : []
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10014, pstmt-20056} executed. 65.2185 millis. SELECT count(0) FROM `customer_info` WHERE 1 = 1
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10014, pstmt-20056, rs-50087} open
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10014, pstmt-20056, rs-50087} Header: [count(0)]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10014, pstmt-20056, rs-50087} Result: [10]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10014, pstmt-20056, rs-50087} closed
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10014, pstmt-20056} clearParameters. 
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10014, stmt-20056} clearBatch. 
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10014, pstmt-20057} created. select * from `customer_info`
+        WHERE 1=1
+ LIMIT ? 
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10014, pstmt-20057} Parameters : [5]
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10014, pstmt-20057} Types : [INTEGER]
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10014, pstmt-20057} executed. 68.732 millis. select * from `customer_info`
+        WHERE 1=1
+ LIMIT ? 
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10014, pstmt-20057, rs-50088} open
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10014, pstmt-20057, rs-50088} Header: [customerId, photo, name, sex, birthdate, telephone, email, education, id_number, unit, customer_manager, remarks]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10014, pstmt-20057, rs-50088} Result: [1, , 喜羊羊, 男, 2022-09-24, 123, 321@qq.com, 小学, 453, 453, 2, 无]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10014, pstmt-20057, rs-50088} Result: [2, http://localhost:8080/upload_file/2022-09-29/037ae8ec645b40389687db2637567c0d.jpg, 佳人, 女, 2020-05-04, 12, 24680, 本科, 1223, 淘宝, 3, wu ]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10014, pstmt-20057, rs-50088} Result: [3, null, 哈哈哈hhh, 中, 2020-03-04, 123456, 23333, 大专, null, null, 2, null]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10014, pstmt-20057, rs-50088} Result: [4, null, 哇嘎嘎, 男, 2020-01-01, 12345, 4321, 中专, null, null, 2, null]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10014, pstmt-20057, rs-50088} Result: [28, http://localhost:8080/upload_file/2022-09-29/761e8dd62db74ea981a8aeee8f47a206.png, aaa, 男, 2022-09-27, 3231, 213, 本科, 12345, t, 3, t]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10014, pstmt-20057, rs-50088} closed
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10014, pstmt-20057} clearParameters. 
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10014, stmt-20057} clearBatch. 
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10014} pool-recycle
+DEBUG Druid-ConnectionPool-Create-859099413 druid.sql.Connection - {conn-10015,procId-2659} connected
+DEBUG Druid-ConnectionPool-Create-859099413 druid.sql.Statement - {conn-10015, stmt-20058} created
+DEBUG Druid-ConnectionPool-Create-859099413 druid.sql.Statement - {conn-10015, stmt-20058, rs-50089} query executed. 58.4582 millis. SELECT 1 FROM DUAL
+DEBUG Druid-ConnectionPool-Create-859099413 druid.sql.ResultSet - {conn-10015, stmt-20058, rs-50089} open
+DEBUG Druid-ConnectionPool-Create-859099413 druid.sql.ResultSet - {conn-10015, stmt-20058, rs-50089} Header: [1]
+DEBUG Druid-ConnectionPool-Create-859099413 druid.sql.ResultSet - {conn-10015, stmt-20058, rs-50089} closed
+DEBUG Druid-ConnectionPool-Create-859099413 druid.sql.Statement - {conn-10015, stmt-20058} closed
+DEBUG http-nio-8080-exec-10 druid.sql.Statement - {conn-10015, stmt-20059} created
+DEBUG http-nio-8080-exec-10 druid.sql.Statement - {conn-10015, stmt-20059, rs-50090} query executed. 113.1806 millis. SELECT 1 FROM DUAL
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10015, stmt-20059, rs-50090} open
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10015, stmt-20059, rs-50090} Header: [1]
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10015, stmt-20059, rs-50090} closed
+DEBUG http-nio-8080-exec-10 druid.sql.Statement - {conn-10015, stmt-20059} closed
+DEBUG http-nio-8080-exec-10 druid.sql.Connection - {conn-10015} pool-connect
+DEBUG http-nio-8080-exec-10 druid.sql.Statement - {conn-10015, pstmt-20060} created. SELECT count(0) FROM `customer_info` WHERE 1 = 1
+DEBUG http-nio-8080-exec-10 druid.sql.Statement - {conn-10015, pstmt-20060} Parameters : []
+DEBUG http-nio-8080-exec-10 druid.sql.Statement - {conn-10015, pstmt-20060} Types : []
+DEBUG http-nio-8080-exec-10 druid.sql.Statement - {conn-10015, pstmt-20060} executed. 265.177 millis. SELECT count(0) FROM `customer_info` WHERE 1 = 1
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50091} open
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50091} Header: [count(0)]
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50091} Result: [10]
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50091} closed
+DEBUG http-nio-8080-exec-10 druid.sql.Statement - {conn-10015, pstmt-20060} clearParameters. 
+DEBUG http-nio-8080-exec-10 druid.sql.Statement - {conn-10015, stmt-20060} clearBatch. 
+DEBUG http-nio-8080-exec-10 druid.sql.Statement - {conn-10015, pstmt-20061} created. select * from `customer_info`
+        WHERE 1=1
+ LIMIT ? 
+DEBUG http-nio-8080-exec-10 druid.sql.Statement - {conn-10015, pstmt-20061} Parameters : [10]
+DEBUG http-nio-8080-exec-10 druid.sql.Statement - {conn-10015, pstmt-20061} Types : [INTEGER]
+DEBUG http-nio-8080-exec-10 druid.sql.Statement - {conn-10015, pstmt-20061} executed. 825.5107 millis. select * from `customer_info`
+        WHERE 1=1
+ LIMIT ? 
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50092} open
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50092} Header: [customerId, photo, name, sex, birthdate, telephone, email, education, id_number, unit, customer_manager, remarks]
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50092} Result: [1, , 喜羊羊, 男, 2022-09-24, 123, 321@qq.com, 小学, 453, 453, 2, 无]
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50092} Result: [2, http://localhost:8080/upload_file/2022-09-29/037ae8ec645b40389687db2637567c0d.jpg, 佳人, 女, 2020-05-04, 12, 24680, 本科, 1223, 淘宝, 3, wu ]
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50092} Result: [3, null, 哈哈哈hhh, 中, 2020-03-04, 123456, 23333, 大专, null, null, 2, null]
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50092} Result: [4, null, 哇嘎嘎, 男, 2020-01-01, 12345, 4321, 中专, null, null, 2, null]
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50092} Result: [28, http://localhost:8080/upload_file/2022-09-29/761e8dd62db74ea981a8aeee8f47a206.png, aaa, 男, 2022-09-27, 3231, 213, 本科, 12345, t, 3, t]
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50092} Result: [29, http://localhost:8080/upload_file/2022-09-29/0b4e43e61e234bf4bf1f26c30b3f6af1.jpg, 哒哒哒哒, 女, 2022-09-13, 21312, 321, 研究生, 1234, null, 1, null]
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50092} Result: [30, http://localhost:8080/upload_file/2022-09-29/8a6ccbf68d304b6d8453c9f47a634c0c.png, 哈哈哈, 男, 2022-10-03, 4213, 145, 本科, 123456, t, 1, t]
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50092} Result: [31, http://localhost:8080/upload_file/2022-09-29/44168490edd049138205d5f1f0b92570.png, bbb, 女, 2022-09-26, 132324, 456, 高中, 4, t, 2, t]
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50092} Result: [32, http://localhost:8080/upload_file/2022-09-29/8a7a4957b33449a0be53e2ec37412022.png, demo, 女, 2022-09-28, 13813812138, 2587412569@qq.com, 小学, 234, test, 1, etst]
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50092} Result: [37, , 吞吞, 男, 2020-06-09, 123, 123, 高中, 53, null, 3, 无]
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50092} closed
+DEBUG http-nio-8080-exec-10 druid.sql.Statement - {conn-10015, pstmt-20061} clearParameters. 
+DEBUG http-nio-8080-exec-10 druid.sql.Statement - {conn-10015, stmt-20061} clearBatch. 
+DEBUG http-nio-8080-exec-10 druid.sql.Connection - {conn-10015} pool-recycle
+DEBUG http-nio-8080-exec-4 druid.sql.Connection - {conn-10015} pool-connect
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, pstmt-20060} Parameters : []
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, pstmt-20060} Types : []
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, pstmt-20060} executed. 911.4331 millis. SELECT count(0) FROM `customer_info` WHERE 1 = 1
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50093} open
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50093} Header: [count(0)]
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50093} Result: [10]
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50093} closed
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, pstmt-20060} clearParameters. 
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, stmt-20060} clearBatch. 
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, pstmt-20061} Parameters : [5]
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, pstmt-20061} Types : [INTEGER]
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, pstmt-20061} executed. 74.7982 millis. select * from `customer_info`
+        WHERE 1=1
+ LIMIT ? 
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50094} open
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50094} Header: [customerId, photo, name, sex, birthdate, telephone, email, education, id_number, unit, customer_manager, remarks]
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50094} Result: [1, , 喜羊羊, 男, 2022-09-24, 123, 321@qq.com, 小学, 453, 453, 2, 无]
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50094} Result: [2, http://localhost:8080/upload_file/2022-09-29/037ae8ec645b40389687db2637567c0d.jpg, 佳人, 女, 2020-05-04, 12, 24680, 本科, 1223, 淘宝, 3, wu ]
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50094} Result: [3, null, 哈哈哈hhh, 中, 2020-03-04, 123456, 23333, 大专, null, null, 2, null]
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50094} Result: [4, null, 哇嘎嘎, 男, 2020-01-01, 12345, 4321, 中专, null, null, 2, null]
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50094} Result: [28, http://localhost:8080/upload_file/2022-09-29/761e8dd62db74ea981a8aeee8f47a206.png, aaa, 男, 2022-09-27, 3231, 213, 本科, 12345, t, 3, t]
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50094} closed
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, pstmt-20061} clearParameters. 
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, stmt-20061} clearBatch. 
+DEBUG http-nio-8080-exec-4 druid.sql.Connection - {conn-10015} pool-recycle
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10015, stmt-20062} created
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10015, stmt-20062, rs-50095} query executed. 117.33 millis. SELECT 1 FROM DUAL
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10015, stmt-20062, rs-50095} open
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10015, stmt-20062, rs-50095} Header: [1]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10015, stmt-20062, rs-50095} closed
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10015, stmt-20062} closed
+DEBUG http-nio-8080-exec-9 druid.sql.Connection - {conn-10015} pool-connect
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10015, pstmt-20060} Parameters : []
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10015, pstmt-20060} Types : []
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10015, pstmt-20060} executed. 70.8154 millis. SELECT count(0) FROM `customer_info` WHERE 1 = 1
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50096} open
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50096} Header: [count(0)]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50096} Result: [10]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50096} closed
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10015, pstmt-20060} clearParameters. 
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10015, stmt-20060} clearBatch. 
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10015, pstmt-20061} Parameters : [10]
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10015, pstmt-20061} Types : [INTEGER]
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10015, pstmt-20061} executed. 206.2861 millis. select * from `customer_info`
+        WHERE 1=1
+ LIMIT ? 
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50097} open
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50097} Header: [customerId, photo, name, sex, birthdate, telephone, email, education, id_number, unit, customer_manager, remarks]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50097} Result: [1, , 喜羊羊, 男, 2022-09-24, 123, 321@qq.com, 小学, 453, 453, 2, 无]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50097} Result: [2, http://localhost:8080/upload_file/2022-09-29/037ae8ec645b40389687db2637567c0d.jpg, 佳人, 女, 2020-05-04, 12, 24680, 本科, 1223, 淘宝, 3, wu ]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50097} Result: [3, null, 哈哈哈hhh, 中, 2020-03-04, 123456, 23333, 大专, null, null, 2, null]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50097} Result: [4, null, 哇嘎嘎, 男, 2020-01-01, 12345, 4321, 中专, null, null, 2, null]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50097} Result: [28, http://localhost:8080/upload_file/2022-09-29/761e8dd62db74ea981a8aeee8f47a206.png, aaa, 男, 2022-09-27, 3231, 213, 本科, 12345, t, 3, t]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50097} Result: [29, http://localhost:8080/upload_file/2022-09-29/0b4e43e61e234bf4bf1f26c30b3f6af1.jpg, 哒哒哒哒, 女, 2022-09-13, 21312, 321, 研究生, 1234, null, 1, null]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50097} Result: [30, http://localhost:8080/upload_file/2022-09-29/8a6ccbf68d304b6d8453c9f47a634c0c.png, 哈哈哈, 男, 2022-10-03, 4213, 145, 本科, 123456, t, 1, t]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50097} Result: [31, http://localhost:8080/upload_file/2022-09-29/44168490edd049138205d5f1f0b92570.png, bbb, 女, 2022-09-26, 132324, 456, 高中, 4, t, 2, t]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50097} Result: [32, http://localhost:8080/upload_file/2022-09-29/8a7a4957b33449a0be53e2ec37412022.png, demo, 女, 2022-09-28, 13813812138, 2587412569@qq.com, 小学, 234, test, 1, etst]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50097} Result: [37, , 吞吞, 男, 2020-06-09, 123, 123, 高中, 53, null, 3, 无]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50097} closed
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10015, pstmt-20061} clearParameters. 
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10015, stmt-20061} clearBatch. 
+DEBUG http-nio-8080-exec-9 druid.sql.Connection - {conn-10015} pool-recycle
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10015, stmt-20063} created
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10015, stmt-20063, rs-50098} query executed. 60.6512 millis. SELECT 1 FROM DUAL
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10015, stmt-20063, rs-50098} open
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10015, stmt-20063, rs-50098} Header: [1]
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10015, stmt-20063, rs-50098} closed
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10015, stmt-20063} closed
+DEBUG http-nio-8080-exec-6 druid.sql.Connection - {conn-10015} pool-connect
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10015, pstmt-20064} created. delete from `customer_info` where `customerId` = ?
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10015, pstmt-20064} Parameters : [32]
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10015, pstmt-20064} Types : [INTEGER]
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10015, pstmt-20064} executed. 122.5706 millis. delete from `customer_info` where `customerId` = ?
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10015, pstmt-20064} clearParameters. 
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10015, stmt-20064} clearBatch. 
+DEBUG http-nio-8080-exec-6 druid.sql.Connection - {conn-10015} pool-recycle
+DEBUG http-nio-8080-exec-8 druid.sql.Connection - {conn-10015} pool-connect
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10015, pstmt-20060} Parameters : []
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10015, pstmt-20060} Types : []
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10015, pstmt-20060} executed. 62.0809 millis. SELECT count(0) FROM `customer_info` WHERE 1 = 1
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50099} open
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50099} Header: [count(0)]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50099} Result: [9]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50099} closed
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10015, pstmt-20060} clearParameters. 
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10015, stmt-20060} clearBatch. 
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10015, pstmt-20061} Parameters : [10]
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10015, pstmt-20061} Types : [INTEGER]
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10015, pstmt-20061} executed. 77.1711 millis. select * from `customer_info`
+        WHERE 1=1
+ LIMIT ? 
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50100} open
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50100} Header: [customerId, photo, name, sex, birthdate, telephone, email, education, id_number, unit, customer_manager, remarks]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50100} Result: [1, , 喜羊羊, 男, 2022-09-24, 123, 321@qq.com, 小学, 453, 453, 2, 无]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50100} Result: [2, http://localhost:8080/upload_file/2022-09-29/037ae8ec645b40389687db2637567c0d.jpg, 佳人, 女, 2020-05-04, 12, 24680, 本科, 1223, 淘宝, 3, wu ]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50100} Result: [3, null, 哈哈哈hhh, 中, 2020-03-04, 123456, 23333, 大专, null, null, 2, null]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50100} Result: [4, null, 哇嘎嘎, 男, 2020-01-01, 12345, 4321, 中专, null, null, 2, null]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50100} Result: [28, http://localhost:8080/upload_file/2022-09-29/761e8dd62db74ea981a8aeee8f47a206.png, aaa, 男, 2022-09-27, 3231, 213, 本科, 12345, t, 3, t]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50100} Result: [29, http://localhost:8080/upload_file/2022-09-29/0b4e43e61e234bf4bf1f26c30b3f6af1.jpg, 哒哒哒哒, 女, 2022-09-13, 21312, 321, 研究生, 1234, null, 1, null]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50100} Result: [30, http://localhost:8080/upload_file/2022-09-29/8a6ccbf68d304b6d8453c9f47a634c0c.png, 哈哈哈, 男, 2022-10-03, 4213, 145, 本科, 123456, t, 1, t]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50100} Result: [31, http://localhost:8080/upload_file/2022-09-29/44168490edd049138205d5f1f0b92570.png, bbb, 女, 2022-09-26, 132324, 456, 高中, 4, t, 2, t]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50100} Result: [37, , 吞吞, 男, 2020-06-09, 123, 123, 高中, 53, null, 3, 无]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50100} closed
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10015, pstmt-20061} clearParameters. 
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10015, stmt-20061} clearBatch. 
+DEBUG http-nio-8080-exec-8 druid.sql.Connection - {conn-10015} pool-recycle
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10015} pool-connect
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10015, pstmt-20060} Parameters : []
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10015, pstmt-20060} Types : []
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10015, pstmt-20060} executed. 79.8907 millis. SELECT count(0) FROM `customer_info` WHERE 1 = 1
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50101} open
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50101} Header: [count(0)]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50101} Result: [9]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50101} closed
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10015, pstmt-20060} clearParameters. 
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10015, stmt-20060} clearBatch. 
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10015, pstmt-20061} Parameters : [5]
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10015, pstmt-20061} Types : [INTEGER]
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10015, pstmt-20061} executed. 74.9804 millis. select * from `customer_info`
+        WHERE 1=1
+ LIMIT ? 
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50102} open
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50102} Header: [customerId, photo, name, sex, birthdate, telephone, email, education, id_number, unit, customer_manager, remarks]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50102} Result: [1, , 喜羊羊, 男, 2022-09-24, 123, 321@qq.com, 小学, 453, 453, 2, 无]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50102} Result: [2, http://localhost:8080/upload_file/2022-09-29/037ae8ec645b40389687db2637567c0d.jpg, 佳人, 女, 2020-05-04, 12, 24680, 本科, 1223, 淘宝, 3, wu ]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50102} Result: [3, null, 哈哈哈hhh, 中, 2020-03-04, 123456, 23333, 大专, null, null, 2, null]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50102} Result: [4, null, 哇嘎嘎, 男, 2020-01-01, 12345, 4321, 中专, null, null, 2, null]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50102} Result: [28, http://localhost:8080/upload_file/2022-09-29/761e8dd62db74ea981a8aeee8f47a206.png, aaa, 男, 2022-09-27, 3231, 213, 本科, 12345, t, 3, t]
+DEBUG http-nio-8080-exec-1 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50102} closed
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10015, pstmt-20061} clearParameters. 
+DEBUG http-nio-8080-exec-1 druid.sql.Statement - {conn-10015, stmt-20061} clearBatch. 
+DEBUG http-nio-8080-exec-1 druid.sql.Connection - {conn-10015} pool-recycle
+DEBUG http-nio-8080-exec-10 druid.sql.Connection - {conn-10015} pool-connect
+DEBUG http-nio-8080-exec-10 druid.sql.Statement - {conn-10015, pstmt-20060} Parameters : []
+DEBUG http-nio-8080-exec-10 druid.sql.Statement - {conn-10015, pstmt-20060} Types : []
+DEBUG http-nio-8080-exec-10 druid.sql.Statement - {conn-10015, pstmt-20060} executed. 64.8491 millis. SELECT count(0) FROM `customer_info` WHERE 1 = 1
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50103} open
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50103} Header: [count(0)]
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50103} Result: [9]
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50103} closed
+DEBUG http-nio-8080-exec-10 druid.sql.Statement - {conn-10015, pstmt-20060} clearParameters. 
+DEBUG http-nio-8080-exec-10 druid.sql.Statement - {conn-10015, stmt-20060} clearBatch. 
+DEBUG http-nio-8080-exec-10 druid.sql.Statement - {conn-10015, pstmt-20061} Parameters : [10]
+DEBUG http-nio-8080-exec-10 druid.sql.Statement - {conn-10015, pstmt-20061} Types : [INTEGER]
+DEBUG http-nio-8080-exec-10 druid.sql.Statement - {conn-10015, pstmt-20061} executed. 445.8209 millis. select * from `customer_info`
+        WHERE 1=1
+ LIMIT ? 
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50104} open
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50104} Header: [customerId, photo, name, sex, birthdate, telephone, email, education, id_number, unit, customer_manager, remarks]
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50104} Result: [1, , 喜羊羊, 男, 2022-09-24, 123, 321@qq.com, 小学, 453, 453, 2, 无]
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50104} Result: [2, http://localhost:8080/upload_file/2022-09-29/037ae8ec645b40389687db2637567c0d.jpg, 佳人, 女, 2020-05-04, 12, 24680, 本科, 1223, 淘宝, 3, wu ]
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50104} Result: [3, null, 哈哈哈hhh, 中, 2020-03-04, 123456, 23333, 大专, null, null, 2, null]
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50104} Result: [4, null, 哇嘎嘎, 男, 2020-01-01, 12345, 4321, 中专, null, null, 2, null]
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50104} Result: [28, http://localhost:8080/upload_file/2022-09-29/761e8dd62db74ea981a8aeee8f47a206.png, aaa, 男, 2022-09-27, 3231, 213, 本科, 12345, t, 3, t]
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50104} Result: [29, http://localhost:8080/upload_file/2022-09-29/0b4e43e61e234bf4bf1f26c30b3f6af1.jpg, 哒哒哒哒, 女, 2022-09-13, 21312, 321, 研究生, 1234, null, 1, null]
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50104} Result: [30, http://localhost:8080/upload_file/2022-09-29/8a6ccbf68d304b6d8453c9f47a634c0c.png, 哈哈哈, 男, 2022-10-03, 4213, 145, 本科, 123456, t, 1, t]
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50104} Result: [31, http://localhost:8080/upload_file/2022-09-29/44168490edd049138205d5f1f0b92570.png, bbb, 女, 2022-09-26, 132324, 456, 高中, 4, t, 2, t]
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50104} Result: [37, , 吞吞, 男, 2020-06-09, 123, 123, 高中, 53, null, 3, 无]
+DEBUG http-nio-8080-exec-10 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50104} closed
+DEBUG http-nio-8080-exec-10 druid.sql.Statement - {conn-10015, pstmt-20061} clearParameters. 
+DEBUG http-nio-8080-exec-10 druid.sql.Statement - {conn-10015, stmt-20061} clearBatch. 
+DEBUG http-nio-8080-exec-10 druid.sql.Connection - {conn-10015} pool-recycle
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, stmt-20065} created
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, stmt-20065, rs-50105} query executed. 100.6482 millis. SELECT 1 FROM DUAL
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, stmt-20065, rs-50105} open
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, stmt-20065, rs-50105} Header: [1]
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, stmt-20065, rs-50105} closed
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, stmt-20065} closed
+DEBUG http-nio-8080-exec-4 druid.sql.Connection - {conn-10015} pool-connect
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, pstmt-20060} Parameters : []
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, pstmt-20060} Types : []
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, pstmt-20060} executed. 69.1467 millis. SELECT count(0) FROM `customer_info` WHERE 1 = 1
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50106} open
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50106} Header: [count(0)]
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50106} Result: [10]
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50106} closed
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, pstmt-20060} clearParameters. 
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, stmt-20060} clearBatch. 
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, pstmt-20061} Parameters : [5]
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, pstmt-20061} Types : [INTEGER]
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, pstmt-20061} executed. 83.2885 millis. select * from `customer_info`
+        WHERE 1=1
+ LIMIT ? 
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50107} open
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50107} Header: [customerId, photo, name, sex, birthdate, telephone, email, education, id_number, unit, customer_manager, remarks]
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50107} Result: [1, , d, 男, 2022-09-24, 123, 321, 小学, 453, 453, 2, 无]
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50107} Result: [2, http://localhost:8080/upload_file/2022-09-29/037ae8ec645b40389687db2637567c0d.jpg, 佳人, 女, 2020-05-04, 12, 24680, 本科, 1223, 淘宝, 3, wu ]
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50107} Result: [3, null, 哈哈哈hhh, 中, 2020-03-04, 123456, 23333, 大专, null, null, 2, null]
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50107} Result: [4, null, 哇嘎嘎, 男, 2020-01-01, 12345, 4321, 中专, null, null, 2, null]
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50107} Result: [28, http://localhost:8080/upload_file/2022-09-29/761e8dd62db74ea981a8aeee8f47a206.png, aaa, 男, 2022-09-27, 3231, 213, 本科, 12345, t, 3, t]
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50107} closed
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, pstmt-20061} clearParameters. 
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, stmt-20061} clearBatch. 
+DEBUG http-nio-8080-exec-4 druid.sql.Connection - {conn-10015} pool-recycle
+DEBUG http-nio-8080-exec-2 druid.sql.Connection - {conn-10015} pool-connect
+DEBUG http-nio-8080-exec-2 druid.sql.Statement - {conn-10015, pstmt-20060} Parameters : []
+DEBUG http-nio-8080-exec-2 druid.sql.Statement - {conn-10015, pstmt-20060} Types : []
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10014, stmt-20066} created
+DEBUG http-nio-8080-exec-2 druid.sql.Statement - {conn-10015, pstmt-20060} executed. 119.3233 millis. SELECT count(0) FROM `customer_info` WHERE 1 = 1
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50108} open
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50108} Header: [count(0)]
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50108} Result: [10]
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50108} closed
+DEBUG http-nio-8080-exec-2 druid.sql.Statement - {conn-10015, pstmt-20060} clearParameters. 
+DEBUG http-nio-8080-exec-2 druid.sql.Statement - {conn-10015, stmt-20060} clearBatch. 
+DEBUG http-nio-8080-exec-2 druid.sql.Statement - {conn-10015, pstmt-20061} Parameters : [5]
+DEBUG http-nio-8080-exec-2 druid.sql.Statement - {conn-10015, pstmt-20061} Types : [INTEGER]
+DEBUG http-nio-8080-exec-2 druid.sql.Statement - {conn-10015, pstmt-20061} executed. 83.6331 millis. select * from `customer_info`
+        WHERE 1=1
+ LIMIT ? 
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50109} open
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50109} Header: [customerId, photo, name, sex, birthdate, telephone, email, education, id_number, unit, customer_manager, remarks]
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50109} Result: [1, , d, 男, 2022-09-24, 123, 321, 小学, 453, 453, 2, 无]
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50109} Result: [2, http://localhost:8080/upload_file/2022-09-29/037ae8ec645b40389687db2637567c0d.jpg, 佳人, 女, 2020-05-04, 12, 24680, 本科, 1223, 淘宝, 3, wu ]
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50109} Result: [3, null, 哈哈哈hhh, 中, 2020-03-04, 123456, 23333, 大专, null, null, 2, null]
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50109} Result: [4, null, 哇嘎嘎, 男, 2020-01-01, 12345, 4321, 中专, null, null, 2, null]
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50109} Result: [28, http://localhost:8080/upload_file/2022-09-29/761e8dd62db74ea981a8aeee8f47a206.png, aaa, 男, 2022-09-27, 3231, 213, 本科, 12345, t, 3, t]
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50109} closed
+DEBUG http-nio-8080-exec-2 druid.sql.Statement - {conn-10015, pstmt-20061} clearParameters. 
+DEBUG http-nio-8080-exec-2 druid.sql.Statement - {conn-10015, stmt-20061} clearBatch. 
+DEBUG http-nio-8080-exec-2 druid.sql.Connection - {conn-10015} pool-recycle
+ERROR http-nio-8080-exec-9 druid.sql.Statement - {conn-10014, stmt-20066} execute error. SELECT 1 FROM DUAL
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 1,712,630 milliseconds ago. The last packet sent successfully to the server was 1,712,693 milliseconds ago.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1200)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2866)
+	at com.alibaba.druid.filter.FilterAdapter.statement_executeQuery(FilterAdapter.java:2513)
+	at com.alibaba.druid.filter.FilterEventAdapter.statement_executeQuery(FilterEventAdapter.java:296)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2863)
+	at com.alibaba.druid.wall.WallFilter.statement_executeQuery(WallFilter.java:546)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2863)
+	at com.alibaba.druid.filter.FilterAdapter.statement_executeQuery(FilterAdapter.java:2513)
+	at com.alibaba.druid.filter.FilterEventAdapter.statement_executeQuery(FilterEventAdapter.java:296)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2863)
+	at com.alibaba.druid.proxy.jdbc.StatementProxyImpl.executeQuery(StatementProxyImpl.java:215)
+	at com.alibaba.druid.pool.vendor.MySqlValidConnectionChecker.isValidConnection(MySqlValidConnectionChecker.java:140)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal(DruidAbstractDataSource.java:1460)
+	at com.alibaba.druid.pool.DruidDataSource.getConnectionDirect(DruidDataSource.java:1460)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5058)
+	at com.alibaba.druid.filter.logging.LogFilter.dataSource_getConnection(LogFilter.java:909)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5054)
+	at com.alibaba.druid.filter.FilterAdapter.dataSource_getConnection(FilterAdapter.java:2759)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5054)
+	at com.alibaba.druid.filter.stat.StatFilter.dataSource_getConnection(StatFilter.java:704)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5054)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1383)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:79)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:49)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:64)
+	at com.sun.proxy.$Proxy73.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:194)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	at com.sun.proxy.$Proxy61.update(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.update(SqlSessionTemplate.java:288)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:67)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:145)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at com.sun.proxy.$Proxy62.updateCustomerInfo(Unknown Source)
+	at com.example.cusinfomanagesystem.Service.impl.CustomerInfoServiceImpl.updateCus(CustomerInfoServiceImpl.java:67)
+	at com.example.cusinfomanagesystem.Controller.CustomerInfoController.updateCus(CustomerInfoController.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1070)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 1,712,630 milliseconds ago. The last packet sent successfully to the server was 1,712,693 milliseconds ago.
+	at sun.reflect.GeneratedConstructorAccessor41.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:581)
+	at com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:761)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:700)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:1051)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryString(NativeProtocol.java:997)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:663)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1168)
+	... 103 more
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:464)
+	at sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:68)
+	at sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1346)
+	at sun.security.ssl.SSLSocketImpl.access$300(SSLSocketImpl.java:73)
+	at sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:962)
+	at java.io.FilterInputStream.read(FilterInputStream.java:133)
+	at com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeaderLocal(SimplePacketReader.java:81)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+	at com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+	at com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+	at com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:575)
+	... 109 more
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10014, stmt-20066} closed
+DEBUG http-nio-8080-exec-9 druid.sql.Connection - {conn-10015} pool-connect
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10015, pstmt-20067} created. UPDATE `customer_info`
+        SET
+         `photo` = ?,
+            
+            
+                `name` = ?,
+            
+            
+                `sex` = ?,
+            
+            
+                `birthdate` = ?,
+            
+            
+                `telephone` = ?,
+            
+            
+                `email` = ?,
+            
+            
+                `education` = ?,
+            
+            
+                `id_number` = ?,
+            
+            
+                `unit` = ?,
+            
+            
+                `customer_manager` = ?,
+            
+            
+                `remarks` = ? 
+        WHERE
+         `customerId` = ?
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10015, pstmt-20067} Parameters : [, d, 男, 2022-09-24 08:00:00.0, 123, 321, 高中, 453, 453, 2, 无, 1]
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10015, pstmt-20067} Types : [VARCHAR, VARCHAR, VARCHAR, TIMESTAMP, VARCHAR, VARCHAR, VARCHAR, VARCHAR, VARCHAR, VARCHAR, VARCHAR, INTEGER]
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10015, pstmt-20067} executed. 154.5242 millis. UPDATE `customer_info`
+        SET
+         `photo` = ?,
+            
+            
+                `name` = ?,
+            
+            
+                `sex` = ?,
+            
+            
+                `birthdate` = ?,
+            
+            
+                `telephone` = ?,
+            
+            
+                `email` = ?,
+            
+            
+                `education` = ?,
+            
+            
+                `id_number` = ?,
+            
+            
+                `unit` = ?,
+            
+            
+                `customer_manager` = ?,
+            
+            
+                `remarks` = ? 
+        WHERE
+         `customerId` = ?
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10015, pstmt-20067} clearParameters. 
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10015, stmt-20067} clearBatch. 
+DEBUG http-nio-8080-exec-9 druid.sql.Connection - {conn-10015} pool-recycle
+DEBUG Druid-ConnectionPool-Create-859099413 druid.sql.Connection - {conn-10016,procId-2697} connected
+DEBUG Druid-ConnectionPool-Create-859099413 druid.sql.Statement - {conn-10016, stmt-20068} created
+DEBUG Druid-ConnectionPool-Create-859099413 druid.sql.Statement - {conn-10016, stmt-20068, rs-50110} query executed. 61.5346 millis. SELECT 1 FROM DUAL
+DEBUG Druid-ConnectionPool-Create-859099413 druid.sql.ResultSet - {conn-10016, stmt-20068, rs-50110} open
+DEBUG Druid-ConnectionPool-Create-859099413 druid.sql.ResultSet - {conn-10016, stmt-20068, rs-50110} Header: [1]
+DEBUG Druid-ConnectionPool-Create-859099413 druid.sql.ResultSet - {conn-10016, stmt-20068, rs-50110} closed
+DEBUG Druid-ConnectionPool-Create-859099413 druid.sql.Statement - {conn-10016, stmt-20068} closed
+DEBUG http-nio-8080-exec-5 druid.sql.Statement - {conn-10016, stmt-20069} created
+DEBUG http-nio-8080-exec-5 druid.sql.Statement - {conn-10016, stmt-20069, rs-50111} query executed. 168.8531 millis. SELECT 1 FROM DUAL
+DEBUG http-nio-8080-exec-5 druid.sql.ResultSet - {conn-10016, stmt-20069, rs-50111} open
+DEBUG http-nio-8080-exec-5 druid.sql.ResultSet - {conn-10016, stmt-20069, rs-50111} Header: [1]
+DEBUG http-nio-8080-exec-5 druid.sql.ResultSet - {conn-10016, stmt-20069, rs-50111} closed
+DEBUG http-nio-8080-exec-5 druid.sql.Statement - {conn-10016, stmt-20069} closed
+DEBUG http-nio-8080-exec-5 druid.sql.Connection - {conn-10016} pool-connect
+DEBUG http-nio-8080-exec-5 druid.sql.Statement - {conn-10016, pstmt-20070} created. delete from `customer_info` where `customerId` = ?
+DEBUG http-nio-8080-exec-5 druid.sql.Statement - {conn-10016, pstmt-20070} Parameters : [3]
+DEBUG http-nio-8080-exec-5 druid.sql.Statement - {conn-10016, pstmt-20070} Types : [INTEGER]
+DEBUG http-nio-8080-exec-5 druid.sql.Statement - {conn-10016, pstmt-20070} executed. 134.2733 millis. delete from `customer_info` where `customerId` = ?
+DEBUG http-nio-8080-exec-5 druid.sql.Statement - {conn-10016, pstmt-20070} clearParameters. 
+DEBUG http-nio-8080-exec-5 druid.sql.Statement - {conn-10016, stmt-20070} clearBatch. 
+DEBUG http-nio-8080-exec-5 druid.sql.Connection - {conn-10016} pool-recycle
+DEBUG http-nio-8080-exec-6 druid.sql.Connection - {conn-10016} pool-connect
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10016, pstmt-20071} created. SELECT count(0) FROM `customer_info` WHERE 1 = 1
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10016, pstmt-20071} Parameters : []
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10016, pstmt-20071} Types : []
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10016, pstmt-20071} executed. 69.9039 millis. SELECT count(0) FROM `customer_info` WHERE 1 = 1
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10016, pstmt-20071, rs-50112} open
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10016, pstmt-20071, rs-50112} Header: [count(0)]
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10016, pstmt-20071, rs-50112} Result: [9]
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10016, pstmt-20071, rs-50112} closed
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10016, pstmt-20071} clearParameters. 
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10016, stmt-20071} clearBatch. 
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10016, pstmt-20072} created. select * from `customer_info`
+        WHERE 1=1
+ LIMIT ? 
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10016, pstmt-20072} Parameters : [5]
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10016, pstmt-20072} Types : [INTEGER]
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10016, pstmt-20072} executed. 68.9383 millis. select * from `customer_info`
+        WHERE 1=1
+ LIMIT ? 
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10016, pstmt-20072, rs-50113} open
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10016, pstmt-20072, rs-50113} Header: [customerId, photo, name, sex, birthdate, telephone, email, education, id_number, unit, customer_manager, remarks]
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10016, pstmt-20072, rs-50113} Result: [1, , d, 男, 2022-09-24, 123, 321, 高中, 453, 453, 2, 无]
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10016, pstmt-20072, rs-50113} Result: [2, http://localhost:8080/upload_file/2022-09-29/037ae8ec645b40389687db2637567c0d.jpg, 佳人, 女, 2020-05-04, 12, 24680, 本科, 1223, 淘宝, 3, wu ]
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10016, pstmt-20072, rs-50113} Result: [4, null, 哇嘎嘎, 男, 2020-01-01, 12345, 4321, 中专, null, null, 2, null]
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10016, pstmt-20072, rs-50113} Result: [28, http://localhost:8080/upload_file/2022-09-29/761e8dd62db74ea981a8aeee8f47a206.png, aaa, 男, 2022-09-27, 3231, 213, 本科, 12345, t, 3, t]
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10016, pstmt-20072, rs-50113} Result: [29, http://localhost:8080/upload_file/2022-09-29/0b4e43e61e234bf4bf1f26c30b3f6af1.jpg, 哒哒哒哒, 女, 2022-09-13, 21312, 321, 研究生, 1234, null, 1, null]
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10016, pstmt-20072, rs-50113} closed
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10016, pstmt-20072} clearParameters. 
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10016, stmt-20072} clearBatch. 
+DEBUG http-nio-8080-exec-6 druid.sql.Connection - {conn-10016} pool-recycle
+DEBUG http-nio-8080-exec-2 druid.sql.Connection - {conn-10016} pool-connect
+DEBUG http-nio-8080-exec-2 druid.sql.Statement - {conn-10016, pstmt-20071} Parameters : []
+DEBUG http-nio-8080-exec-2 druid.sql.Statement - {conn-10016, pstmt-20071} Types : []
+DEBUG http-nio-8080-exec-2 druid.sql.Statement - {conn-10016, pstmt-20071} executed. 64.8437 millis. SELECT count(0) FROM `customer_info` WHERE 1 = 1
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, stmt-20073} created
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10016, pstmt-20071, rs-50114} open
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10016, pstmt-20071, rs-50114} Header: [count(0)]
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10016, pstmt-20071, rs-50114} Result: [9]
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10016, pstmt-20071, rs-50114} closed
+DEBUG http-nio-8080-exec-2 druid.sql.Statement - {conn-10016, pstmt-20071} clearParameters. 
+DEBUG http-nio-8080-exec-2 druid.sql.Statement - {conn-10016, stmt-20071} clearBatch. 
+DEBUG http-nio-8080-exec-2 druid.sql.Statement - {conn-10016, pstmt-20072} Parameters : [5]
+DEBUG http-nio-8080-exec-2 druid.sql.Statement - {conn-10016, pstmt-20072} Types : [INTEGER]
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, stmt-20073, rs-50115} query executed. 59.9183 millis. SELECT 1 FROM DUAL
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, stmt-20073, rs-50115} open
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, stmt-20073, rs-50115} Header: [1]
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, stmt-20073, rs-50115} closed
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, stmt-20073} closed
+DEBUG http-nio-8080-exec-4 druid.sql.Connection - {conn-10015} pool-connect
+DEBUG http-nio-8080-exec-2 druid.sql.Statement - {conn-10016, pstmt-20072} executed. 86.3091 millis. select * from `customer_info`
+        WHERE 1=1
+ LIMIT ? 
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10016, pstmt-20072, rs-50116} open
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10016, pstmt-20072, rs-50116} Header: [customerId, photo, name, sex, birthdate, telephone, email, education, id_number, unit, customer_manager, remarks]
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10016, pstmt-20072, rs-50116} Result: [1, , d, 男, 2022-09-24, 123, 321, 高中, 453, 453, 2, 无]
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10016, pstmt-20072, rs-50116} Result: [2, http://localhost:8080/upload_file/2022-09-29/037ae8ec645b40389687db2637567c0d.jpg, 佳人, 女, 2020-05-04, 12, 24680, 本科, 1223, 淘宝, 3, wu ]
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10016, pstmt-20072, rs-50116} Result: [4, null, 哇嘎嘎, 男, 2020-01-01, 12345, 4321, 中专, null, null, 2, null]
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10016, pstmt-20072, rs-50116} Result: [28, http://localhost:8080/upload_file/2022-09-29/761e8dd62db74ea981a8aeee8f47a206.png, aaa, 男, 2022-09-27, 3231, 213, 本科, 12345, t, 3, t]
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10016, pstmt-20072, rs-50116} Result: [29, http://localhost:8080/upload_file/2022-09-29/0b4e43e61e234bf4bf1f26c30b3f6af1.jpg, 哒哒哒哒, 女, 2022-09-13, 21312, 321, 研究生, 1234, null, 1, null]
+DEBUG http-nio-8080-exec-2 druid.sql.ResultSet - {conn-10016, pstmt-20072, rs-50116} closed
+DEBUG http-nio-8080-exec-2 druid.sql.Statement - {conn-10016, pstmt-20072} clearParameters. 
+DEBUG http-nio-8080-exec-2 druid.sql.Statement - {conn-10016, stmt-20072} clearBatch. 
+DEBUG http-nio-8080-exec-2 druid.sql.Connection - {conn-10016} pool-recycle
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, pstmt-20074} created. INSERT INTO `customer_info`
+        (
+         `photo`,
+            
+            
+                `name`,
+            
+            
+                `sex`,
+            
+            
+                `birthdate`,
+            
+            
+                `telephone`,
+            
+            
+                `email`,
+            
+            
+                `education`,
+            
+            
+            
+                `unit`,
+            
+            
+                `customer_manager`,
+            
+            
+                `remarks` 
+        )
+        VALUES
+        (
+         ?,
+            
+            
+                ?,
+            
+            
+                ?,
+            
+            
+                ?,
+            
+            
+                ?,
+            
+            
+                ?,
+            
+            
+                ?,
+            
+            
+            
+                ?,
+            
+            
+                ?,
+            
+            
+                ? 
+        )
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, pstmt-20074} Parameters : [http://localhost:8080/upload_file/2022-09-30/2984b63012fc470ea7ccb461a608eb17.jpg, ttt, 男, 2022-08-30 08:00:00.0, 111, 1111@qq.com, 高中, ss, ss, ss]
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, pstmt-20074} Types : [VARCHAR, VARCHAR, VARCHAR, TIMESTAMP, VARCHAR, VARCHAR, VARCHAR, VARCHAR, VARCHAR, VARCHAR]
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, pstmt-20074} executed. 157.5047 millis. INSERT INTO `customer_info`
+        (
+         `photo`,
+            
+            
+                `name`,
+            
+            
+                `sex`,
+            
+            
+                `birthdate`,
+            
+            
+                `telephone`,
+            
+            
+                `email`,
+            
+            
+                `education`,
+            
+            
+            
+                `unit`,
+            
+            
+                `customer_manager`,
+            
+            
+                `remarks` 
+        )
+        VALUES
+        (
+         ?,
+            
+            
+                ?,
+            
+            
+                ?,
+            
+            
+                ?,
+            
+            
+                ?,
+            
+            
+                ?,
+            
+            
+                ?,
+            
+            
+            
+                ?,
+            
+            
+                ?,
+            
+            
+                ? 
+        )
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, pstmt-20074, rs-50117} open
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, pstmt-20074, rs-50117} Header: [GENERATED_KEY]
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, pstmt-20074, rs-50117} Result: [39]
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, pstmt-20074, rs-50117} closed
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, pstmt-20074} clearParameters. 
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, stmt-20074} clearBatch. 
+DEBUG http-nio-8080-exec-4 druid.sql.Connection - {conn-10015} pool-recycle
+DEBUG http-nio-8080-exec-9 druid.sql.Connection - {conn-10015} pool-connect
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10015, pstmt-20060} Parameters : []
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10015, pstmt-20060} Types : []
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10015, pstmt-20060} executed. 67.4574 millis. SELECT count(0) FROM `customer_info` WHERE 1 = 1
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50118} open
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50118} Header: [count(0)]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50118} Result: [10]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50118} closed
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10015, pstmt-20060} clearParameters. 
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10015, stmt-20060} clearBatch. 
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10015, pstmt-20061} Parameters : [5]
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10015, pstmt-20061} Types : [INTEGER]
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10015, pstmt-20061} executed. 66.2909 millis. select * from `customer_info`
+        WHERE 1=1
+ LIMIT ? 
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50119} open
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50119} Header: [customerId, photo, name, sex, birthdate, telephone, email, education, id_number, unit, customer_manager, remarks]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50119} Result: [1, , d, 男, 2022-09-24, 123, 321, 高中, 453, 453, 2, 无]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50119} Result: [2, http://localhost:8080/upload_file/2022-09-29/037ae8ec645b40389687db2637567c0d.jpg, 佳人, 女, 2020-05-04, 12, 24680, 本科, 1223, 淘宝, 3, wu ]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50119} Result: [4, null, 哇嘎嘎, 男, 2020-01-01, 12345, 4321, 中专, null, null, 2, null]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50119} Result: [28, http://localhost:8080/upload_file/2022-09-29/761e8dd62db74ea981a8aeee8f47a206.png, aaa, 男, 2022-09-27, 3231, 213, 本科, 12345, t, 3, t]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50119} Result: [29, http://localhost:8080/upload_file/2022-09-29/0b4e43e61e234bf4bf1f26c30b3f6af1.jpg, 哒哒哒哒, 女, 2022-09-13, 21312, 321, 研究生, 1234, null, 1, null]
+DEBUG http-nio-8080-exec-9 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50119} closed
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10015, pstmt-20061} clearParameters. 
+DEBUG http-nio-8080-exec-9 druid.sql.Statement - {conn-10015, stmt-20061} clearBatch. 
+DEBUG http-nio-8080-exec-9 druid.sql.Connection - {conn-10015} pool-recycle
+DEBUG http-nio-8080-exec-5 druid.sql.Connection - {conn-10015} pool-connect
+DEBUG http-nio-8080-exec-5 druid.sql.Statement - {conn-10015, pstmt-20060} Parameters : []
+DEBUG http-nio-8080-exec-5 druid.sql.Statement - {conn-10015, pstmt-20060} Types : []
+DEBUG http-nio-8080-exec-5 druid.sql.Statement - {conn-10015, pstmt-20060} executed. 70.8472 millis. SELECT count(0) FROM `customer_info` WHERE 1 = 1
+DEBUG http-nio-8080-exec-5 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50120} open
+DEBUG http-nio-8080-exec-5 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50120} Header: [count(0)]
+DEBUG http-nio-8080-exec-5 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50120} Result: [10]
+DEBUG http-nio-8080-exec-5 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50120} closed
+DEBUG http-nio-8080-exec-5 druid.sql.Statement - {conn-10015, pstmt-20060} clearParameters. 
+DEBUG http-nio-8080-exec-5 druid.sql.Statement - {conn-10015, stmt-20060} clearBatch. 
+DEBUG http-nio-8080-exec-5 druid.sql.Statement - {conn-10015, pstmt-20061} Parameters : [10]
+DEBUG http-nio-8080-exec-5 druid.sql.Statement - {conn-10015, pstmt-20061} Types : [INTEGER]
+DEBUG http-nio-8080-exec-5 druid.sql.Statement - {conn-10015, pstmt-20061} executed. 65.9811 millis. select * from `customer_info`
+        WHERE 1=1
+ LIMIT ? 
+DEBUG http-nio-8080-exec-5 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50121} open
+DEBUG http-nio-8080-exec-5 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50121} Header: [customerId, photo, name, sex, birthdate, telephone, email, education, id_number, unit, customer_manager, remarks]
+DEBUG http-nio-8080-exec-5 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50121} Result: [1, , d, 男, 2022-09-24, 123, 321, 高中, 453, 453, 2, 无]
+DEBUG http-nio-8080-exec-5 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50121} Result: [2, http://localhost:8080/upload_file/2022-09-29/037ae8ec645b40389687db2637567c0d.jpg, 佳人, 女, 2020-05-04, 12, 24680, 本科, 1223, 淘宝, 3, wu ]
+DEBUG http-nio-8080-exec-5 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50121} Result: [4, null, 哇嘎嘎, 男, 2020-01-01, 12345, 4321, 中专, null, null, 2, null]
+DEBUG http-nio-8080-exec-5 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50121} Result: [28, http://localhost:8080/upload_file/2022-09-29/761e8dd62db74ea981a8aeee8f47a206.png, aaa, 男, 2022-09-27, 3231, 213, 本科, 12345, t, 3, t]
+DEBUG http-nio-8080-exec-5 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50121} Result: [29, http://localhost:8080/upload_file/2022-09-29/0b4e43e61e234bf4bf1f26c30b3f6af1.jpg, 哒哒哒哒, 女, 2022-09-13, 21312, 321, 研究生, 1234, null, 1, null]
+DEBUG http-nio-8080-exec-5 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50121} Result: [30, http://localhost:8080/upload_file/2022-09-29/8a6ccbf68d304b6d8453c9f47a634c0c.png, 哈哈哈, 男, 2022-10-03, 4213, 145, 本科, 123456, t, 1, t]
+DEBUG http-nio-8080-exec-5 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50121} Result: [31, http://localhost:8080/upload_file/2022-09-29/44168490edd049138205d5f1f0b92570.png, bbb, 女, 2022-09-26, 132324, 456, 高中, 4, t, 2, t]
+DEBUG http-nio-8080-exec-5 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50121} Result: [37, , 吞吞, 男, 2020-06-09, 123, 123, 高中, 53, null, 3, 无]
+DEBUG http-nio-8080-exec-5 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50121} Result: [38, null, whhhh, 男, null, 2333, 123, null, null, null, 1, null]
+DEBUG http-nio-8080-exec-5 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50121} Result: [39, http://localhost:8080/upload_file/2022-09-30/2984b63012fc470ea7ccb461a608eb17.jpg, ttt, 男, 2022-08-30, 111, 1111@qq.com, 高中, null, ss, ss, ss]
+DEBUG http-nio-8080-exec-5 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50121} closed
+DEBUG http-nio-8080-exec-5 druid.sql.Statement - {conn-10015, pstmt-20061} clearParameters. 
+DEBUG http-nio-8080-exec-5 druid.sql.Statement - {conn-10015, stmt-20061} clearBatch. 
+DEBUG http-nio-8080-exec-5 druid.sql.Connection - {conn-10015} pool-recycle
+DEBUG http-nio-8080-exec-6 druid.sql.Connection - {conn-10015} pool-connect
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10015, pstmt-20075} created. SELECT count(0) FROM `customer_info` WHERE 1 = 1 AND (`name` LIKE CONCAT('%', ?, '%') OR `customer_manager` LIKE CONCAT('%', ?, '%'))
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10015, pstmt-20075} Parameters : [d, d]
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10015, pstmt-20075} Types : [VARCHAR, VARCHAR]
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10015, pstmt-20075} executed. 59.3291 millis. SELECT count(0) FROM `customer_info` WHERE 1 = 1 AND (`name` LIKE CONCAT('%', ?, '%') OR `customer_manager` LIKE CONCAT('%', ?, '%'))
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10015, pstmt-20075, rs-50122} open
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10015, pstmt-20075, rs-50122} Header: [count(0)]
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10015, pstmt-20075, rs-50122} Result: [1]
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10015, pstmt-20075, rs-50122} closed
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10015, pstmt-20075} clearParameters. 
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10015, stmt-20075} clearBatch. 
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10015, pstmt-20076} created. select * from `customer_info`
+        WHERE 1=1
+         
+            AND (`name` like CONCAT('%',?,'%') or `customer_manager` like CONCAT('%',?,'%'))
+ LIMIT ? 
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10015, pstmt-20076} Parameters : [d, d, 10]
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10015, pstmt-20076} Types : [VARCHAR, VARCHAR, INTEGER]
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10015, pstmt-20076} executed. 61.3958 millis. select * from `customer_info`
+        WHERE 1=1
+         
+            AND (`name` like CONCAT('%',?,'%') or `customer_manager` like CONCAT('%',?,'%'))
+ LIMIT ? 
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10015, pstmt-20076, rs-50123} open
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10015, pstmt-20076, rs-50123} Header: [customerId, photo, name, sex, birthdate, telephone, email, education, id_number, unit, customer_manager, remarks]
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10015, pstmt-20076, rs-50123} Result: [1, , d, 男, 2022-09-24, 123, 321, 高中, 453, 453, 2, 无]
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10015, pstmt-20076, rs-50123} closed
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10015, pstmt-20076} clearParameters. 
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10015, stmt-20076} clearBatch. 
+DEBUG http-nio-8080-exec-6 druid.sql.Connection - {conn-10015} pool-recycle
+DEBUG http-nio-8080-exec-8 druid.sql.Connection - {conn-10015} pool-connect
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10015, pstmt-20060} Parameters : []
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10015, pstmt-20060} Types : []
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10015, pstmt-20060} executed. 85.4542 millis. SELECT count(0) FROM `customer_info` WHERE 1 = 1
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50124} open
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50124} Header: [count(0)]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50124} Result: [10]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50124} closed
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10015, pstmt-20060} clearParameters. 
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10015, stmt-20060} clearBatch. 
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10015, pstmt-20061} Parameters : [10]
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10015, pstmt-20061} Types : [INTEGER]
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10015, pstmt-20061} executed. 62.0112 millis. select * from `customer_info`
+        WHERE 1=1
+ LIMIT ? 
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50125} open
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50125} Header: [customerId, photo, name, sex, birthdate, telephone, email, education, id_number, unit, customer_manager, remarks]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50125} Result: [1, , d, 男, 2022-09-24, 123, 321, 高中, 453, 453, 2, 无]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50125} Result: [2, http://localhost:8080/upload_file/2022-09-29/037ae8ec645b40389687db2637567c0d.jpg, 佳人, 女, 2020-05-04, 12, 24680, 本科, 1223, 淘宝, 3, wu ]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50125} Result: [4, null, 哇嘎嘎, 男, 2020-01-01, 12345, 4321, 中专, null, null, 2, null]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50125} Result: [28, http://localhost:8080/upload_file/2022-09-29/761e8dd62db74ea981a8aeee8f47a206.png, aaa, 男, 2022-09-27, 3231, 213, 本科, 12345, t, 3, t]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50125} Result: [29, http://localhost:8080/upload_file/2022-09-29/0b4e43e61e234bf4bf1f26c30b3f6af1.jpg, 哒哒哒哒, 女, 2022-09-13, 21312, 321, 研究生, 1234, null, 1, null]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50125} Result: [30, http://localhost:8080/upload_file/2022-09-29/8a6ccbf68d304b6d8453c9f47a634c0c.png, 哈哈哈, 男, 2022-10-03, 4213, 145, 本科, 123456, t, 1, t]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50125} Result: [31, http://localhost:8080/upload_file/2022-09-29/44168490edd049138205d5f1f0b92570.png, bbb, 女, 2022-09-26, 132324, 456, 高中, 4, t, 2, t]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50125} Result: [37, , 吞吞, 男, 2020-06-09, 123, 123, 高中, 53, null, 3, 无]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50125} Result: [38, null, whhhh, 男, null, 2333, 123, null, null, null, 1, null]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50125} Result: [39, http://localhost:8080/upload_file/2022-09-30/2984b63012fc470ea7ccb461a608eb17.jpg, ttt, 男, 2022-08-30, 111, 1111@qq.com, 高中, null, ss, ss, ss]
+DEBUG http-nio-8080-exec-8 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50125} closed
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10015, pstmt-20061} clearParameters. 
+DEBUG http-nio-8080-exec-8 druid.sql.Statement - {conn-10015, stmt-20061} clearBatch. 
+DEBUG http-nio-8080-exec-8 druid.sql.Connection - {conn-10015} pool-recycle
+DEBUG http-nio-8080-exec-4 druid.sql.Connection - {conn-10015} pool-connect
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, pstmt-20075} Parameters : [3, 3]
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, pstmt-20075} Types : [VARCHAR, VARCHAR]
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, pstmt-20075} executed. 101.001 millis. SELECT count(0) FROM `customer_info` WHERE 1 = 1 AND (`name` LIKE CONCAT('%', ?, '%') OR `customer_manager` LIKE CONCAT('%', ?, '%'))
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, pstmt-20075, rs-50126} open
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, pstmt-20075, rs-50126} Header: [count(0)]
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, pstmt-20075, rs-50126} Result: [3]
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, pstmt-20075, rs-50126} closed
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, pstmt-20075} clearParameters. 
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, stmt-20075} clearBatch. 
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, pstmt-20076} Parameters : [3, 3, 10]
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, pstmt-20076} Types : [VARCHAR, VARCHAR, INTEGER]
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, pstmt-20076} executed. 59.2004 millis. select * from `customer_info`
+        WHERE 1=1
+         
+            AND (`name` like CONCAT('%',?,'%') or `customer_manager` like CONCAT('%',?,'%'))
+ LIMIT ? 
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, pstmt-20076, rs-50127} open
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, pstmt-20076, rs-50127} Header: [customerId, photo, name, sex, birthdate, telephone, email, education, id_number, unit, customer_manager, remarks]
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, pstmt-20076, rs-50127} Result: [2, http://localhost:8080/upload_file/2022-09-29/037ae8ec645b40389687db2637567c0d.jpg, 佳人, 女, 2020-05-04, 12, 24680, 本科, 1223, 淘宝, 3, wu ]
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, pstmt-20076, rs-50127} Result: [28, http://localhost:8080/upload_file/2022-09-29/761e8dd62db74ea981a8aeee8f47a206.png, aaa, 男, 2022-09-27, 3231, 213, 本科, 12345, t, 3, t]
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, pstmt-20076, rs-50127} Result: [37, , 吞吞, 男, 2020-06-09, 123, 123, 高中, 53, null, 3, 无]
+DEBUG http-nio-8080-exec-4 druid.sql.ResultSet - {conn-10015, pstmt-20076, rs-50127} closed
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, pstmt-20076} clearParameters. 
+DEBUG http-nio-8080-exec-4 druid.sql.Statement - {conn-10015, stmt-20076} clearBatch. 
+DEBUG http-nio-8080-exec-4 druid.sql.Connection - {conn-10015} pool-recycle
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10015, stmt-20077} created
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10015, stmt-20077, rs-50128} query executed. 64.9118 millis. SELECT 1 FROM DUAL
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10015, stmt-20077, rs-50128} open
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10015, stmt-20077, rs-50128} Header: [1]
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10015, stmt-20077, rs-50128} closed
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10015, stmt-20077} closed
+DEBUG http-nio-8080-exec-6 druid.sql.Connection - {conn-10015} pool-connect
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10015, pstmt-20060} Parameters : []
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10015, pstmt-20060} Types : []
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10015, pstmt-20060} executed. 61.3372 millis. SELECT count(0) FROM `customer_info` WHERE 1 = 1
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50129} open
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50129} Header: [count(0)]
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50129} Result: [10]
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10015, pstmt-20060, rs-50129} closed
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10015, pstmt-20060} clearParameters. 
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10015, stmt-20060} clearBatch. 
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10015, pstmt-20061} Parameters : [10]
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10015, pstmt-20061} Types : [INTEGER]
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10015, pstmt-20061} executed. 65.5102 millis. select * from `customer_info`
+        WHERE 1=1
+ LIMIT ? 
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50130} open
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50130} Header: [customerId, photo, name, sex, birthdate, telephone, email, education, id_number, unit, customer_manager, remarks]
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50130} Result: [1, , d, 男, 2022-09-24, 123, 321, 高中, 453, 453, 2, 无]
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50130} Result: [2, http://localhost:8080/upload_file/2022-09-29/037ae8ec645b40389687db2637567c0d.jpg, 佳人, 女, 2020-05-04, 12, 24680, 本科, 1223, 淘宝, 3, wu ]
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50130} Result: [4, null, 哇嘎嘎, 男, 2020-01-01, 12345, 4321, 中专, null, null, 2, null]
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50130} Result: [28, http://localhost:8080/upload_file/2022-09-29/761e8dd62db74ea981a8aeee8f47a206.png, aaa, 男, 2022-09-27, 3231, 213, 本科, 12345, t, 3, t]
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50130} Result: [29, http://localhost:8080/upload_file/2022-09-29/0b4e43e61e234bf4bf1f26c30b3f6af1.jpg, 哒哒哒哒, 女, 2022-09-13, 21312, 321, 研究生, 1234, null, 1, null]
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50130} Result: [30, http://localhost:8080/upload_file/2022-09-29/8a6ccbf68d304b6d8453c9f47a634c0c.png, 哈哈哈, 男, 2022-10-03, 4213, 145, 本科, 123456, t, 1, t]
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50130} Result: [31, http://localhost:8080/upload_file/2022-09-29/44168490edd049138205d5f1f0b92570.png, bbb, 女, 2022-09-26, 132324, 456, 高中, 4, t, 2, t]
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50130} Result: [37, , 吞吞, 男, 2020-06-09, 123, 123, 高中, 53, null, 3, 无]
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50130} Result: [38, null, whhhh, 男, null, 2333, 123, null, null, null, 1, null]
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50130} Result: [39, http://localhost:8080/upload_file/2022-09-30/2984b63012fc470ea7ccb461a608eb17.jpg, ttt, 男, 2022-08-30, 111, 1111@qq.com, 高中, null, ss, ss, ss]
+DEBUG http-nio-8080-exec-6 druid.sql.ResultSet - {conn-10015, pstmt-20061, rs-50130} closed
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10015, pstmt-20061} clearParameters. 
+DEBUG http-nio-8080-exec-6 druid.sql.Statement - {conn-10015, stmt-20061} clearBatch. 
+DEBUG http-nio-8080-exec-6 druid.sql.Connection - {conn-10015} pool-recycle
+DEBUG http-nio-8080-exec-7 druid.sql.Statement - {conn-10015, stmt-20078} created
+ERROR http-nio-8080-exec-7 druid.sql.Statement - {conn-10015, stmt-20078} execute error. SELECT 1 FROM DUAL
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 13,737,493 milliseconds ago. The last packet sent successfully to the server was 13,737,556 milliseconds ago.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1200)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2866)
+	at com.alibaba.druid.filter.FilterAdapter.statement_executeQuery(FilterAdapter.java:2513)
+	at com.alibaba.druid.filter.FilterEventAdapter.statement_executeQuery(FilterEventAdapter.java:296)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2863)
+	at com.alibaba.druid.wall.WallFilter.statement_executeQuery(WallFilter.java:546)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2863)
+	at com.alibaba.druid.filter.FilterAdapter.statement_executeQuery(FilterAdapter.java:2513)
+	at com.alibaba.druid.filter.FilterEventAdapter.statement_executeQuery(FilterEventAdapter.java:296)
+	at com.alibaba.druid.filter.FilterChainImpl.statement_executeQuery(FilterChainImpl.java:2863)
+	at com.alibaba.druid.proxy.jdbc.StatementProxyImpl.executeQuery(StatementProxyImpl.java:215)
+	at com.alibaba.druid.pool.vendor.MySqlValidConnectionChecker.isValidConnection(MySqlValidConnectionChecker.java:140)
+	at com.alibaba.druid.pool.DruidAbstractDataSource.testConnectionInternal(DruidAbstractDataSource.java:1460)
+	at com.alibaba.druid.pool.DruidDataSource.getConnectionDirect(DruidDataSource.java:1460)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5058)
+	at com.alibaba.druid.filter.logging.LogFilter.dataSource_getConnection(LogFilter.java:909)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5054)
+	at com.alibaba.druid.filter.FilterAdapter.dataSource_getConnection(FilterAdapter.java:2759)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5054)
+	at com.alibaba.druid.filter.stat.StatFilter.dataSource_getConnection(StatFilter.java:704)
+	at com.alibaba.druid.filter.FilterChainImpl.dataSource_connect(FilterChainImpl.java:5054)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1383)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:1375)
+	at com.alibaba.druid.pool.DruidDataSource.getConnection(DruidDataSource.java:79)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:49)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:64)
+	at com.sun.proxy.$Proxy73.update(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:194)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.delete(DefaultSqlSession.java:209)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	at com.sun.proxy.$Proxy61.delete(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.delete(SqlSessionTemplate.java:304)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:72)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:145)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at com.sun.proxy.$Proxy62.deleteOne(Unknown Source)
+	at com.example.cusinfomanagesystem.Service.impl.CustomerInfoServiceImpl.deleteOne(CustomerInfoServiceImpl.java:49)
+	at com.example.cusinfomanagesystem.Controller.CustomerInfoController.deleteOne(CustomerInfoController.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1070)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 13,737,493 milliseconds ago. The last packet sent successfully to the server was 13,737,556 milliseconds ago.
+	at sun.reflect.GeneratedConstructorAccessor41.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeProtocol.send(NativeProtocol.java:628)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:683)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:1051)
+	at com.mysql.cj.protocol.a.NativeProtocol.sendQueryString(NativeProtocol.java:997)
+	at com.mysql.cj.NativeSession.execSQL(NativeSession.java:663)
+	at com.mysql.cj.jdbc.StatementImpl.executeQuery(StatementImpl.java:1168)
+	... 104 more
+Caused by: java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:111)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:155)
+	at sun.security.ssl.SSLSocketOutputRecord.deliver(SSLSocketOutputRecord.java:319)
+	at sun.security.ssl.SSLSocketImpl$AppOutputStream.write(SSLSocketImpl.java:1193)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at com.mysql.cj.protocol.a.SimplePacketSender.send(SimplePacketSender.java:55)
+	at com.mysql.cj.protocol.a.TimeTrackingPacketSender.send(TimeTrackingPacketSender.java:50)
+	at com.mysql.cj.protocol.a.NativeProtocol.send(NativeProtocol.java:619)
+	... 109 more

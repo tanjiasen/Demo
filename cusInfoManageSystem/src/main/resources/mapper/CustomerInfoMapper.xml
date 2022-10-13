@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//ibatis.apache.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.cusinfomanagesystem.Mapper.CustomerInfoMapper">
+
+
+    <insert id="insertCustomerInfo"  useGeneratedKeys="true" keyProperty="customerId">
+        INSERT INTO `customer_info`
+        (
+        <trim suffixOverrides=",">
+            <if test="customerId!=null">
+                `customerId`,
+            </if>
+            <if test="photo!=null">
+                `photo`,
+            </if>
+            <if test="name!=null">
+                `name`,
+            </if>
+            <if test="sex!=null">
+                `sex`,
+            </if>
+            <if test="birthdate!=null">
+                `birthdate`,
+            </if>
+            <if test="telephone!=null">
+                `telephone`,
+            </if>
+            <if test="email!=null">
+                `email`,
+            </if>
+            <if test="education!=null">
+                `education`,
+            </if>
+            <if test="id_number!=null">
+                `id_number`,
+            </if>
+            <if test="unit!=null">
+                `unit`,
+            </if>
+            <if test="customer_manager!=null">
+                `customer_manager`,
+            </if>
+            <if test="remarks!=null">
+                `remarks`,
+            </if>
+        </trim>
+        )
+        VALUES
+        (
+        <trim suffixOverrides=",">
+            <if test="customerId!=null">
+                #{customerId},
+            </if>
+            <if test="photo!=null">
+                #{photo},
+            </if>
+            <if test="name!=null">
+                #{name},
+            </if>
+            <if test="sex!=null">
+                #{sex},
+            </if>
+            <if test="birthdate!=null">
+                #{birthdate},
+            </if>
+            <if test="telephone!=null">
+                #{telephone},
+            </if>
+            <if test="email!=null">
+                #{email},
+            </if>
+            <if test="education!=null">
+                #{education},
+            </if>
+            <if test="id_number!=null">
+                #{id_number},
+            </if>
+            <if test="unit!=null">
+                #{unit},
+            </if>
+            <if test="customer_manager!=null">
+                #{customer_manager},
+            </if>
+            <if test="remarks!=null">
+                #{remarks},
+            </if>
+        </trim>
+        )
+    </insert>
+
+
+    <update id="updateCustomerInfo">
+        UPDATE `customer_info`
+        SET
+        <trim suffixOverrides=",">
+            <if test="photo != null">
+                `photo` = #{photo},
+            </if>
+            <if test="name != null and name!=''">
+                `name` = #{name},
+            </if>
+            <if test="sex != null and sex!=''">
+                `sex` = #{sex},
+            </if>
+            <if test="birthdate != null">
+                `birthdate` = #{birthdate},
+            </if>
+            <if test="telephone != null and telephone!=''">
+                `telephone` = #{telephone},
+            </if>
+            <if test="email != null and email!=''">
+                `email` = #{email},
+            </if>
+            <if test="education != null and education!=''">
+                `education` = #{education},
+            </if>
+            <if test="id_number != null">
+                `id_number` = #{id_number},
+            </if>
+            <if test="unit != null and unit!=''">
+                `unit` = #{unit},
+            </if>
+            <if test="customer_manager != null and customer_manager!=''">
+                `customer_manager` = #{customer_manager},
+            </if>
+            <if test="remarks != null and remarks!=''">
+                `remarks` = #{remarks},
+            </if>
+        </trim>
+        WHERE
+        <trim suffixOverrides="and">
+            `customerId` = #{customerId} and
+        </trim>
+    </update>
+
+    <update id="update"></update>
+
+
+    <delete id="deleteOne">
+        delete from `customer_info` where `customerId` = #{id}
+    </delete>
+
+
+    <resultMap type="com.example.cusinfomanagesystem.Pojo.CustomerInfo" id="CustomerInfoMap">
+        <result property="customerId" column="customerId" jdbcType="INTEGER"/>
+        <result property="photo" column="photo" jdbcType="BLOB"/>
+        <result property="name" column="name" jdbcType="VARCHAR"/>
+        <result property="sex" column="sex" jdbcType="VARCHAR"/>
+        <result property="birthdate" column="birthdate" jdbcType="DATE"/>
+        <result property="telephone" column="telephone" jdbcType="VARCHAR"/>
+        <result property="email" column="email" jdbcType="VARCHAR"/>
+        <result property="education" column="education" jdbcType="VARCHAR"/>
+        <result property="id_number" column="id_number" jdbcType="VARCHAR"/>
+        <result property="unit" column="unit" jdbcType="VARCHAR"/>
+        <result property="customer_manager" column="customer_manager" jdbcType="VARCHAR"/>
+        <result property="remarks" column="remarks" jdbcType="VARCHAR"/>
+    </resultMap>
+
+
+    <select id="selectAll" resultType="com.example.cusinfomanagesystem.Pojo.CustomerInfo">
+        select * from `customer_info`
+        WHERE 1=1
+        <if test="search != null and search!=''">
+            AND (`name` like CONCAT('%',#{saerch},'%') or `customer_manager` like CONCAT('%',#{saerch},'%'))
+        </if>
+
+    </select>
+
+
+    <select id="selectOne" resultType="com.example.cusinfomanagesystem.Pojo.CustomerInfo">
+        SELECT * from `customer_info` where customerId = #{id}
+    </select>
+
+
+</mapper>
